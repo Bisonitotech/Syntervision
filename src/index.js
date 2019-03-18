@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomeFive from './HomeFive';
+import Home from './Home';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Platform from './Platform';
@@ -14,7 +14,7 @@ class Root extends React.Component {
   	return(
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
-			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeFive}/>
+			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
 			  <Route path={`${process.env.PUBLIC_URL}/platform`} component={Platform}/>
 			  <Route path={`${process.env.PUBLIC_URL}/solutions`} component={Solutions}/>
 			  <Route path={`${process.env.PUBLIC_URL}/whoweare`} component={WhoWeAre}/>
