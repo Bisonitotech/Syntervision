@@ -1342,7 +1342,7 @@ ul.pattern .color8 {
     font-family: 'Montserrat', sans-serif;
 }
 .mega-menu .dropdown-content {
-    display: none;
+    /*display: none;*/
     position: fixed;
     right: 0;
     top: 77px;
@@ -1430,4 +1430,29 @@ ul.pattern .color8 {
 .navbar-custom .navbar-nav li a {
     font-size: 18px;
     font-weight: bold;
+}
+.bottom-part {
+    padding-left: 50px;
+    padding-right: 120px;
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+.bottom-part .right-content{
+    padding-left: 40px;
+}
+.bottom-part .right-content h6{
+    font-size: 7px;
+    color: #707070;
+    max-width: 240px;
+    line-height: 11px;
+}
+.bottom-part .right-content button{
+    border-radius: 8px;
+    background: #D80000;
+    width: 65px;
+    height: 21px;
+}
+.bottom-part .right-content h5 {
+    color: #1E293B;
 }
