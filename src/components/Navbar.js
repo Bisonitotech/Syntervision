@@ -15,7 +15,7 @@ class Navbar extends React.Component {
         <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-">
             <div className="full-container">
                 <a className="navbar-brand logo" href="/">
-                <img href="/" className="logo" alt="logo" src="/images/synterweb_logo.png"/>
+                <img href="/" className="logo" alt="logo" src="/images/synterweb_black_logo.png"/>
                 </a>
                 <button className="navbar-toggler whole-mobile-menu" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="mdi mdi-menu"></i>
