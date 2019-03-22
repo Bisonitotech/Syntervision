@@ -25,10 +25,11 @@
    1.BASIC
    ========== */
 
-body {
+body, html {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden !important;
     position: relative;
+    max-width: 100vw;
 }
 
 a,
@@ -190,7 +191,7 @@ b {
 
 .svg-pattern {
   width: 100%;
-  position: relative; 
+  position: relative;
 }
 
 iframe {
@@ -329,7 +330,7 @@ iframe {
 }
 
 .navbar-nav {
-    margin-left: 140px;
+    /* margin-left: 140px; */
     margin-right: 0;
     border-bottom: none;
 }
@@ -348,10 +349,13 @@ iframe {
     font-size: 15px;
     background-color: transparent !important;
     padding: 15px 0;
-    margin: 0 10px;
+    margin: 0 45px;
     transition: all 0.4s;
 }
 
+.navbar-custom .navbar-nav li:last-child a {
+  margin-right: 165px;
+}
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -407,7 +411,7 @@ iframe {
 
 
 /*=======================================
-          5.HOME 
+          5.HOME
   =====================================*/
 
 .bg-home {
@@ -1096,13 +1100,13 @@ textarea.form-control {
     .home-padding-t-150 {
         padding-top: 110px;
     }
-    .navbar-custom {
+    /*.navbar-custom {
         margin-top: 0px;
         padding: 10px 0px !important;
         background-color: #272a33 !important;
         box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
         color: #fff !important;
-    }
+    }*/
 
     .navbar-white {
         margin-top: 0px;
@@ -1117,7 +1121,7 @@ textarea.form-control {
 	}
     .navbar-custom .navbar-nav li a {
         transition: all 0.4s;
-        margin: 0px;
+        /*margin: 0px;*/
     }
     .navbar-custom>.container-fluid {
         width: 100%;
@@ -1133,7 +1137,7 @@ textarea.form-control {
         font-size: 24px;
         margin-top: 0px;
         margin-bottom: 0px;
-        color: #fff !important;
+        /*color: #fff !important;*/
     }
     .login-btn {
         padding-left: 10px;
@@ -1335,4 +1339,286 @@ ul.pattern .color8 {
     #style-switcher {
         display: none;
     }
+}
+
+/*mega menu*/
+.mega-menu p {
+    font-family: 'Montserrat', sans-serif;
+}
+.mega-menu .dropdown-content {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 77px;
+    width: 680px;
+    max-width: 100%;
+    background: white;
+}
+
+.mega-menu .dropdown-content .content {
+    padding: 50px 0;
+    max-height: calc(100vh - 120px);
+    overflow: scroll;
+}
+.mega-menu .dropdown-content .item {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 120px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mega-menu .dropdown-content .item i{
+    padding: 0 30px;
+}
+.mega-menu .dropdown-content .item h4 {
+    color: #1e293b;
+    font-weight: bold;
+}
+.mega-menu .dropdown-content .item p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #1e293b;
+    line-height: 18px;
+    font-weight: 300;
+}
+.mega-menu li.dropdown:hover .dropdown-content {
+    display: block;
+}
+.mega-menu li.dropdown .dropdown-content ul.header{
+    padding-left: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #2e313a;
+    color: white;
+}
+.mega-menu li.dropdown .dropdown-content ul.header li{
+    display: inline-block;
+    margin: 0px 35px;
+    border-bottom: solid 3px transparent;
+    line-height: 47px;
+    cursor: pointer;
+}
+.navbar-custom .navbar-nav li .item a{
+    margin-left: 0;
+}
+.mega-menu li.nav-item  a.nav-link {
+    padding: 0;
+    line-height: 77px;
+}
+.mega-menu li.dropdown .dropdown-content ul.header li.active{
+    border-bottom: solid 3px red;
+}
+.bottom-part {
+    padding-left: 50px;
+    padding-right: 120px;
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+.bottom-part .right-content{
+    padding-left: 40px;
+}
+.bottom-part .right-content h6{
+    font-size: 7px;
+    color: #707070;
+    max-width: 240px;
+    line-height: 11px;
+}
+.bottom-part .right-content button{
+    border-radius: 8px;
+    background: #D80000;
+    width: 65px;
+    height: 21px;
+}
+.bottom-part .right-content h5 {
+    color: #1E293B;
+}
+#navbarCollapse {
+    justify-content: flex-end;
+    height: 77px;
+}
+.full-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+.navbar-custom {
+    padding: 0;
+    background: white;
+    max-width: 100vw!important;
+    height: 77px;
+}
+.navbar-custom .navbar-nav li a {
+    color: #1E293B;
+}
+.navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
+    color: #707070;
+}
+.is-sticky .navbar-custom {
+    background: white;
+    padding: 0;
+}
+.navbar-custom .navbar-nav li a {
+    font-size: 18px;
+    font-weight: bold;
+}
+.mdi-menu:before {
+    font-weight: 500;
+    font-size: 40px;
+}
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-toggler.sub-mobile-menu{
+    display: block!important;
+  }
+  .mobile-only {
+    display: none;
+  }
+}
+#subbarCollapse .mdi-close{
+    position: absolute;
+    color: white;
+    top: 19px;
+    right: 18px;
+}
+#subbarCollapse .mdi-close:before{
+    font-size: 20px;
+    font-weight: 700;
+}
+#subbarCollapse{
+    display: none!important;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 110px 60px;
+    background: #1E293B;
+    color: white;
+}
+#subbarCollapse li{
+    list-style: none;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 10px 0;
+}
+#subbarCollapse li a{
+    color: white;
+}
+#subbarCollapse li.imp-menu-item{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+.sub-menu{
+    position: relative;
+}
+.show#subbarCollapse{
+    display: block!important;
+    height: 100vh;
+}
+.mega-menu .dropdown-content#solutionsMega .item p{
+    font-size: 18px;
+    padding: 10px 0;
+    line-height: 22px;
+    font-weight: 300;
+}
+.navbar-custom .navbar-nav li a.item{
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+.mega-menu .dropdown-content#solutionsMega .item i{
+    padding: 0 60px;
+}
+.mega-menu .dropdown > .toggle-icon {
+  display: none;
+}
+@media (max-width: 991px){
+    .mega-menu li.dropdown .dropdown-content ul.header li{
+        margin: 0px 20px;
+    }
+    .mega-menu .dropdown-content .item>a{
+      padding-left: 20px;
+    }
+    .navbar-toggler.sub-mobile-menu{
+        display: none;
+    }
+    .mega-menu .dropdown-content.show {
+        display: block!important;
+    }
+    .mega-menu li.dropdown:hover .dropdown-content{
+        display: none;
+    }
+    .mega-menu .dropdown > .toggle-icon{
+        line-height: 77px;
+        display: block;
+        position: absolute;
+        width: 50px;
+        text-align: center;
+        height: 77px;
+        right: 20px;
+        top: 0;
+        background: transparent;
+        border: none;
+    }
+    .mega-menu .dropdown > .toggle-icon::before{
+        content: '-';
+        font-weight: 700;
+        font-family: 'arial';
+        line-height: 77px;
+        font-size: 30px;
+    }
+    .mega-menu .dropdown > .toggle-icon.collapsed::before{
+        content: '+';
+    }
+    .mega-menu .dropdown-content .item i{
+      padding: 0 20px;
+    }
+    .mega-menu .dropdown-content .item{
+      padding-left: 0;
+      padding-right: 20px;
+    }
+    .bottom-part{
+      padding: 0 20px;
+    }
+    .bottom-part img{
+      width: 60px;
+    }
+    .bottom-part .right-content{
+      padding-left: 20px;
+    }
+    #navbarCollapse{
+        position: absolute;
+        top: 77px;
+        right: 0px;
+        background: white;
+        width: 680px;
+        max-width: 100%;
+        height: auto;
+        max-height: calc(100vh - 77px);
+        overflow: scroll;
+    }
+    .mega-menu .dropdown-content {
+        position: relative;
+        top: 0;
+    }
+    .mega-menu .dropdown-content .content {
+        overflow: visible;
+        max-height: 100%;
+    }
+    .whole-mobile-menu {
+        position: absolute;
+        right: 0;
+    }
+    .navbar-custom .navbar-nav li a {
+        margin: 0 20px;
+    }
+    .mega-menu li.nav-item a.nav-link {
+        /* line-height: 50px; */
+    }
+
 }
