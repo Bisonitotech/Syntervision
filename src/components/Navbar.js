@@ -15,17 +15,18 @@ class Navbar extends React.Component {
         <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-">
             <div className="full-container">
                 <a className="navbar-brand logo" href="/">
-                <img href="/" class="logo" alt="logo" src="/images/synterweb_logo.png"/>
+                <img href="/" className="logo" alt="logo" src="/images/synterweb_logo.png"/>
                 </a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler whole-mobile-menu" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="mdi mdi-menu"></i>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav navbar-right mega-menu" id="mySidenav">
-                      
+
                         <li className="nav-item dropdown">
-                            <a href={"/platform"} className="nav-link">Platform</a>
-                            <div className="dropdown-content">
+                            <a href={"/platform"} className="nav-link" opendrop="false" onClick={(e)=>console.log(e.target)}>Platform</a>
+                            <i data-toggle="collapse" data-target="#platformMega" aria-controls="platformMega" aria-expanded="false" className="toggle-icon collapsed"></i>
+                            <div className="dropdown-content" id="platformMega">
                               <ul className="header">
                                 <li className={this.state.megaPlatfromStatus==0?'active':''} onClick={()=>this.setState({megaPlatfromStatus:0})}>Products</li>
                                 <li className={this.state.megaPlatfromStatus==1?'active':''}  onClick={()=>this.setState({megaPlatfromStatus:1})}>Platform Overview</li>
@@ -142,8 +143,20 @@ class Navbar extends React.Component {
                         <li className="nav-item">
                             <a href={"/whoweare"} className="nav-link">Company</a>
                         </li>
-                        <li className="nav-item">
-                            <a href="#contact" className="nav-link">Contact</a>
+                        <li className="nav-item mobile-only">
+                            <a href={"#contact"} className="nav-link">Contact</a>
+                        </li>
+                        <li className="nav-item mobile-only">
+                            <a href={"/demorequest"} className="nav-link">Request a Demo</a>
+                        </li>
+                        <li className="nav-item mobile-only">
+                            <a href={"#"} className="nav-link">Careers</a>
+                        </li>
+                        <li className="nav-item mobile-only">
+                            <a href={"#"} className="nav-link">Privacy Policy</a>
+                        </li>
+                        <li className="nav-item mobile-only">
+                            <a href={"#"} className="nav-link">Terms & Conditions</a>
                         </li>
                     </ul>
                     {/* <div className="nav-button ml-auto">
@@ -153,6 +166,20 @@ class Navbar extends React.Component {
                             </li>
                         </ul>
                     </div> */}
+                </div>
+                <div class="sub-menu">
+                  <button className="navbar-toggler sub-mobile-menu" type="button" data-toggle="collapse" data-target="#subbarCollapse" aria-controls="subbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                      <i className="mdi mdi-menu"></i>
+                  </button>
+                  <div className="collapse navbar-collapse" id="subbarCollapse">
+                    <li class="imp-menu-item"><a href="#contact">Contact</a></li>
+                    <li class="imp-menu-item"><a href="/demorequest">Request a Demo</a></li>
+                    <li class="imp-menu-item"><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <i className="mdi mdi-close" data-toggle="collapse" data-target="#subbarCollapse" aria-controls="subbarCollapse" aria-expanded="false" aria-label="Toggle navigation"></i>
+
+                  </div>
                 </div>
             </div>
         </nav>
