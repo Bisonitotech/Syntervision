@@ -2,6 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      success: false,
+      email: ''
+    };
+  }
+  sendEmail(){
+    let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ ;
+    if(reg.test(this.state.email.toLowerCase()))
+      this.setState({success: true})
+    else {
+      alert('Please input validate email!')
+    }
+  }
   render() {
   	return (
          <footer className="footer">
@@ -44,10 +59,11 @@ class Footer extends React.Component {
                         <div className="text-muted margin-t-20">
                             <p></p>
                         </div>
-                        <form className="form subscribe">
-                            <input placeholder="Email" className="form-control" required />
-                            <Link to="JavaScript:Void(0);" className="submit"><i className="pe-7s-paper-plane"></i></Link>
-                        </form>
+                        {this.state.success==false && <form className="form subscribe">
+                            <input placeholder="Email" value={this.state.email} onChange={(e)=>this.setState({email: e.target.value})} className="form-control" required />
+                            <a className="submit" onClick={()=>this.sendEmail()}><i className="pe-7s-paper-plane"></i></a>
+                        </form>}
+                        {this.state.success==true && <p className="confirmation">Thank you! Check your inbox for a confirmation message from us.</p>}
                     </div>
                 </div>
             </div>
