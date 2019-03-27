@@ -1622,3 +1622,20 @@ ul.pattern .color8 {
     }
 
 }
+.confirmation{
+    color: #98a0aa;
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+}
+@media (min-width: 768px){
+    .desktop-hidden{
+      display: none!important;
+    }
+}
+@media (max-width: 767px){
+    .mobile-hidden{
+      display: none!important;
+    }
+}
