@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Product from './Product';
 
 
 
@@ -7,10 +8,48 @@ class Navbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      megaPlatfromStatus: 0
+      megaPlatfromStatus: 0,
+      modalShow: false,
+      modalContent: '',
+      index: 0,
     };
+    this.closeModal = this.closeModal.bind(this)
+  }
+  showProducts(index){
+    if(window.innerWidth<=768){
+
+      localStorage.setItem("index", index);
+      window.location.href='/products'
+
+    }
+    this.setState({
+      index: index,
+      modalShow: true,
+      modalContent: 'product'
+    })
+  }
+  showPlatformOverview(index){
+    if(window.innerWidth<=768){
+
+      localStorage.setItem("index", index);
+      window.location.href='/platformOverview'
+
+    }
+    this.setState({
+      index: index,
+      modalShow: true,
+      modalContent: 'platformOverview'
+    })
+  }
+  closeModal(){
+    this.setState({
+      index: 0,
+      modalShow: false,
+      modalContent: ''
+    })
   }
   render() {
+
   	return (
         <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-">
             <div className="full-container">
@@ -28,66 +67,66 @@ class Navbar extends React.Component {
                             <button data-toggle="collapse" data-target="#platformMega" aria-controls="platformMega" aria-expanded="false" className="toggle-icon collapsed"></button>
                             <div className="dropdown-content" id="platformMega">
                               <ul className="header">
-                                <li className={this.state.megaPlatfromStatus==0?'active':''} onClick={()=>this.setState({megaPlatfromStatus:0})}>Products</li>
-                                <li className={this.state.megaPlatfromStatus==1?'active':''}  onClick={()=>this.setState({megaPlatfromStatus:1})}>Platform Overview</li>
+                                <li className={this.state.megaPlatfromStatus===0?'active':''} onClick={()=>this.setState({megaPlatfromStatus:0})}>Products</li>
+                                <li className={this.state.megaPlatfromStatus===1?'active':''}  onClick={()=>this.setState({megaPlatfromStatus:1})}>Platform Overview</li>
                               </ul>
                               <div className="content">
-                                {this.state.megaPlatfromStatus==0 && <div>
-                                  <a className="item">
-                                    <div>
-                                      <i className="pe-7s-share text-custom"></i>
-                                    </div>
-                                    <div>
-                                      <h4 className="title">Event Manager Tool</h4>
-                                      <p>Oasis Event Manager reduces the noise in the system, reducing the number of daily events from thousands down to a</p>
-                                    </div>
-                                  </a>
-                                  <a className="item">
+                                {this.state.megaPlatfromStatus===0 && <div>
+                                  <a className="item" onClick={()=>this.showProducts(0)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Automation</h4>
+                                      <p>Oasis Event Manager reduces the noise in the system, reducing the number of daily events from thousands down to a</p>
+                                    </div>
+                                  </a>
+                                  <a className="item" onClick={()=>this.showProducts(1)}>
+                                    <div>
+                                      <i className="pe-7s-share text-custom"></i>
+                                    </div>
+                                    <div>
+                                      <h4 className="title">Oasis Discovery</h4>
                                       <p>If you’re looking for a world class RPA, you’ve found it with Syntervision.</p>
                                     </div>
                                   </a>
-                                  <a className="item">
+                                  <a className="item" onClick={()=>this.showProducts(2)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Network Discovery Tool</h4>
+                                      <h4 className="title">Oasis Application & Infrastructure Monitoring</h4>
                                       <p>Asset Discovery is simple and comprehensive with Oasis.</p>
                                     </div>
                                   </a>
-                                  <a className="item">
+                                  <a className="item" onClick={()=>this.showProducts(3)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Advanced Analytics</h4>
+                                      <h4 className="title">Oasis Analytics</h4>
                                       <p>Delivers business impacting information from your devices, applications, logs and events are consumed by then normalised to generate context.</p>
                                     </div>
                                   </a>
-                                  <a className="item">
+                                  <a className="item" onClick={()=>this.showProducts(4)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Cybervision</h4>
+                                      <h4 className="title">Oasis Event Manager</h4>
                                       <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
                                     </div>
                                   </a>
-                                  <a className="item">
+                                  <a className="item" onClick={()=>this.showProducts(5)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Trap Adaptor</h4>
+                                      <h4 className="title">Oasis Trap Adapter</h4>
                                       <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform.</p>
                                     </div>
                                   </a>
-                                  <a className="item">
+                                  <a className="item" onClick={()=>this.showProducts(6)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
@@ -96,9 +135,18 @@ class Navbar extends React.Component {
                                       <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
                                     </div>
                                   </a>
+                                  <a className="item" onClick={()=>this.showProducts(7)}>
+                                    <div>
+                                      <i className="pe-7s-share text-custom"></i>
+                                    </div>
+                                    <div>
+                                      <h4 className="title">Cybervision</h4>
+                                      <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
+                                    </div>
+                                  </a>
                                 </div>}
-                                {this.state.megaPlatfromStatus==1 && <div>
-                                  <a className="item">
+                                {this.state.megaPlatfromStatus===1 && <div>
+                                  <a className="item" href={"/platform"}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
@@ -107,7 +155,7 @@ class Navbar extends React.Component {
                                       <p>We leverage out-of-the-box solutions or create custom-tailored solutions for your enterprise.</p>
                                     </div>
                                   </a>
-                                  <a className="item">
+                                  <a className="item" onClick={()=>this.showPlatformOverview(0)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
@@ -116,7 +164,7 @@ class Navbar extends React.Component {
                                       <p>Discover all of your enterprise network and device data - simply and quickly.</p>
                                     </div>
                                   </a>
-                                  <a className="item">
+                                  <a className="item" onClick={()=>this.showPlatformOverview(1)}>
                                     <div>
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
@@ -271,6 +319,11 @@ class Navbar extends React.Component {
                   </div>
                 </div>
             </div>
+            {this.state.modalShow && <div className="product-modal-wrap">
+              <div className="product-modal">
+                <Product contentName={this.state.modalContent} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal} interval={5000}/>
+              </div>
+            </div>}
         </nav>
   	);
   }
