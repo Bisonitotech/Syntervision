@@ -141,7 +141,7 @@ class Navbar extends React.Component {
                                     </div>
                                     <div>
                                       <h4 className="title">Cybervision</h4>
-                                      <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
+                                      <p>Cybervision is our leading all-in-one cybersecurity service, protecting your enterprise from cybersecurity attacks and keeping you in control of your security protocols.</p>
                                     </div>
                                   </a>
                                 </div>}
