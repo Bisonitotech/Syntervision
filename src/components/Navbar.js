@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Product from './Product';
-
+import { Button } from 'reactstrap';
 
 
 class Navbar extends React.Component {
@@ -74,7 +74,7 @@ class Navbar extends React.Component {
                                 {this.state.megaPlatfromStatus===0 && <div>
                                   <a className="item" onClick={()=>this.showProducts(0)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-refresh-2 text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Automation</h4>
@@ -83,7 +83,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(1)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-search text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Discovery</h4>
@@ -92,7 +92,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(2)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-server text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Application & Infrastructure Monitoring</h4>
@@ -101,7 +101,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(3)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-display1 text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Analytics</h4>
@@ -110,7 +110,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(4)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-edit text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Event Manager</h4>
@@ -119,7 +119,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(5)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-graph3 text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Trap Adapter</h4>
@@ -128,7 +128,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(6)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-plugin text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis API Suite</h4>
@@ -137,7 +137,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(7)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-lock text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Cybervision</h4>
@@ -148,7 +148,7 @@ class Navbar extends React.Component {
                                 {this.state.megaPlatfromStatus===1 && <div>
                                   <a className="item" href={"/platform"}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-home text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Platform Overview</h4>
@@ -157,7 +157,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showPlatformOverview(0)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-global text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Core Features</h4>
@@ -166,7 +166,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showPlatformOverview(1)}>
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-culture text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Architecture</h4>
@@ -179,7 +179,7 @@ class Navbar extends React.Component {
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <button></button>
+                                    <Button color="danger">Learn More</Button>
                                   </div>
                                 </div>
                               </div>
@@ -208,7 +208,7 @@ class Navbar extends React.Component {
                                   </div>
                                   <a className="item">
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-refresh-2 text-custom"></i>
                                     </div>
                                     <div>
                                       <p>Automation</p>
@@ -216,7 +216,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item">
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-search text-custom"></i>
                                     </div>
                                     <div>
                                       <p>Discovery</p>
@@ -224,7 +224,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item">
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-shield text-custom"></i>
                                     </div>
                                     <div>
                                       <p>Monitoring</p>
@@ -232,7 +232,7 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item">
                                     <div>
-                                      <i className="pe-7s-share text-custom"></i>
+                                      <i className="pe-7s-headphones text-custom"></i>
                                     </div>
                                     <div>
                                       <p>Compliance</p>
