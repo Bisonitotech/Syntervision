@@ -77,7 +77,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-refresh-2 text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Automation</h4>
+                                      <h4 className="title">Oasis Automation RPA</h4>
                                       <p>Oasis Event Manager reduces the noise in the system, reducing the number of daily events from thousands down to a</p>
                                     </div>
                                   </a>
@@ -86,7 +86,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-search text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Discovery</h4>
+                                      <h4 className="title">Discovery Tool</h4>
                                       <p>If you’re looking for a world class RPA, you’ve found it with Syntervision.</p>
                                     </div>
                                   </a>
@@ -95,7 +95,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-server text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Application & Infrastructure Monitoring</h4>
+                                      <h4 className="title">Application & Infrastructure Monitoring</h4>
                                       <p>Asset Discovery is simple and comprehensive with Oasis.</p>
                                     </div>
                                   </a>
@@ -104,7 +104,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-display1 text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Analytics</h4>
+                                      <h4 className="title">Advanced Analytics</h4>
                                       <p>Delivers business impacting information from your devices, applications, logs and events are consumed by then normalised to generate context.</p>
                                     </div>
                                   </a>
@@ -122,7 +122,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-graph3 text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Trap Adapter</h4>
+                                      <h4 className="title">Trap Adapter SMNP</h4>
                                       <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform.</p>
                                     </div>
                                   </a>
@@ -131,7 +131,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-plugin text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis API Suite</h4>
+                                      <h4 className="title">API Suite</h4>
                                       <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
                                     </div>
                                   </a>
