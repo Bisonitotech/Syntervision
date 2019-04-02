@@ -1802,3 +1802,30 @@ ul.pattern .color8 {
     padding: 0 20px;
   }
 }
+.contents-link a{
+  display: block;
+  text-decoration: underline!important;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.contents-title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.privacy *{
+  font-family: 'Montserrat', sans-serif;
+}
+.privacy h4{
+  font-weight: 700;
+}
+.privacy h3.title{
+  margin-top: 100px;
+  font-weight: 700;
+}
+.privacy h6.subtitle{
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+.privacy b{
+  font-weight: 700;
+}
