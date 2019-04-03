@@ -290,7 +290,7 @@ class Navbar extends React.Component {
                             <a href={"#"} className="nav-link">Careers</a>
                         </li>
                         <li className="nav-item mobile-only">
-                            <a href={"#"} className="nav-link">Privacy Policy</a>
+                            <a href={"/privacypolicy"} className="nav-link">Privacy Policy</a>
                         </li>
                         <li className="nav-item mobile-only">
                             <a href={"#"} className="nav-link">Terms & Conditions</a>
@@ -312,7 +312,7 @@ class Navbar extends React.Component {
                     <li className="imp-menu-item"><a href="#contact">Contact</a></li>
                     <li className="imp-menu-item"><a href="/demorequest">Request a Demo</a></li>
                     <li className="imp-menu-item"><a href="#">Careers</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="/privacypolicy">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
                     <i className="mdi mdi-close" data-toggle="collapse" data-target="#subbarCollapse" aria-controls="subbarCollapse" aria-expanded="false" aria-label="Toggle navigation"></i>
 
