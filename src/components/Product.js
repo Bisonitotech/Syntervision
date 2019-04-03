@@ -63,10 +63,10 @@ import {
   },
   {
     id: 4,
-    altText: 'Advanced Analytics',
+    altText: 'Oasis Advanced Analytics - Moving Past the Thresholds',
 
     img: 'images/analyticsmodal.jpg',
-    subtitle: <h4>Oasis Advanced Analytics - Moving Past the Thresholds<br/><br/>Oasis delivers business impacting information straight out of your raw data.</h4>,
+    subtitle: <h4>Oasis delivers business impacting information straight out of your raw data.</h4>,
     caption: <p>Countless feeds from your devices, applications, logs and events are consumed by the Oasis ingestion engine, then normalized to generate context. In turn, that information can be converted into actionable intelligence by the Oasis analytics engine.<br/><br/>
               <ul>
                 <li>Find anomalies based on classifying disparate data sources</li>
@@ -103,29 +103,22 @@ import {
   },
   {
     id: 6,
-    altText: 'Oasis Trap Adaptor',
+    altText: 'Trap Adaptor SMNP',
 
-    img: 'images/device.png',
-    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
-
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/trapadaptormodal.jpg',
+    subtitle: <h4>The Oasis Trap Adapter</h4>,
+    caption: <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
+                <b>At-A-Glance:</b><br/><br/>
+                <ul>
+                  <li>SNMP Trap Listener</li>
+                  <li>Immediate event generation</li>
+                  <li>Enterprise scalability</li>
+                  <li>Pre-built trap definitions cover thousands of different device manufacturers</li>
+                  <li>Create your own trap definitions in Oasis to capture your custom or vendor specific traps</li>
+                  <li>Create custom automation flows</li>
+                  <li>No limitation to what traps we can receive</li>
+                  <li>Fully configurable with Oasis API and Oasis Manager</li>
+                  <li>Integrates seamlessly with the Oasis Platform, Oasis CMDB, Oasis Automation, Oasis Reporting and Dashboards, and Service Desks</li></p>
   },
   {
     id: 7,

@@ -122,7 +122,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Trap Adapter</h4>
+                                      <h4 className="title">Trap Adaptor SMNP</h4>
                                       <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform.</p>
                                     </div>
                                   </a>
