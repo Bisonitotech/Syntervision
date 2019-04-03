@@ -86,7 +86,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Discovery</h4>
+                                      <h4 className="title">Discovery Tool</h4>
                                       <p>If you’re looking for a world class RPA, you’ve found it with Syntervision.</p>
                                     </div>
                                   </a>
@@ -95,7 +95,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Application & Infrastructure Monitoring</h4>
+                                      <h4 className="title">Application and Infrastructure Monitoring</h4>
                                       <p>Asset Discovery is simple and comprehensive with Oasis.</p>
                                     </div>
                                   </a>
@@ -104,7 +104,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis Analytics</h4>
+                                      <h4 className="title">Advanced Analytics</h4>
                                       <p>Delivers business impacting information from your devices, applications, logs and events are consumed by then normalised to generate context.</p>
                                     </div>
                                   </a>
