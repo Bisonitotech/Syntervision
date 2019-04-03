@@ -86,7 +86,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-search text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Discovery Tool</h4>
+                                      <h4 className="title">Discovery Engine</h4>
                                       <p>If you’re looking for a world class RPA, you’ve found it with Syntervision.</p>
                                     </div>
                                   </a>

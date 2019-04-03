@@ -1356,7 +1356,7 @@ ul.pattern .color8 {
 }
 
 .mega-menu .dropdown-content .content {
-    padding: 50px 0;
+    padding: 10px 0;
     max-height: calc(100vh - 120px);
     overflow: scroll;
 }
@@ -1368,10 +1368,10 @@ ul.pattern .color8 {
     /* margin-bottom: 20px; */
 }
 .navbar-custom .navbar-nav li a.item:hover {
-    background-color: grey!important;
+    background-color:#f1f1f1!important;
 }
 .mega-menu .dropdown-content .item:hover{
-    background: grey!important;
+    background: #f1f1f1!important;
 }
 .mega-menu .dropdown-content .item i{
     padding: 0 30px;
@@ -1462,7 +1462,7 @@ ul.pattern .color8 {
     color: #1E293B;
 }
 .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
-    color: #707070;
+    color: grey;
 }
 .is-sticky .navbar-custom {
     background: white;
