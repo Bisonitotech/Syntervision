@@ -86,7 +86,9 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-search text-custom"></i>
                                     </div>
                                     <div>
+
                                       <h4 className="title">Discovery Engine</h4>
+
                                       <p>If you’re looking for a world class RPA, you’ve found it with Syntervision.</p>
                                     </div>
                                   </a>
@@ -95,7 +97,9 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-server text-custom"></i>
                                     </div>
                                     <div>
+
                                       <h4 className="title">Application & Infrastructure Monitoring</h4>
+
                                       <p>Asset Discovery is simple and comprehensive with Oasis.</p>
                                     </div>
                                   </a>
@@ -122,7 +126,9 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-graph3 text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Trap Adapter SMNP</h4>
+                                        
+                                      <h4 className="title">Trap Adaptor SMNP</h4>
+
                                       <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform.</p>
                                     </div>
                                   </a>
@@ -131,7 +137,9 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-plugin text-custom"></i>
                                     </div>
                                     <div>
+
                                       <h4 className="title">API Suite</h4>
+
                                       <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
                                     </div>
                                   </a>
