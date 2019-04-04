@@ -11,61 +11,36 @@ import {
   {
     id: 1,
     altText: 'Oasis Automation',
-    title: 'Event Manager Tool',
-    img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
 
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/automationmodal.jpg',
+    subtitle: <h4>Simplify With Automation The Oasis Virtual Operator (OVO)</h4>,
+    caption: <p>If you’re looking for a world class RPA, you’ve found it with Syntervision. Our enterprise product takes advantage of robotic process automation and artificial intelligence by offering a more cost-effective solution that’ll increase savings without sacrificing quality.
+              <br/><br/>The Oasis Virtual Operator delivers exceptional automation services for any repeatable process through cognitive computing. The graphical user interface offers a number of common automations right out of the box, but can also be customized! The OVO utilizes multi-path processes to quickly learn and implement the specific scripted language inputted into the system with limitless flexibility and control. And OVO can be purchased as a standalone product or as part of the Oasis Platform.<br/><br/>
+              <b>Enter the World of Automation to Experience Simplicity</b>
+              <br/><br/>Oasis Automation is a natural step in the lifecycle of a maturing Enterprise Service Management or IT Operations strategy in any business.<br/><br/>
+              Reduces errors<br/><br/>Automates mundane tasks<br/><br/>
+              Responds to common deviations rapidly<br/><br/>
+              Reduce ticket count by ~80%<br/><br/>
+              Save time and money in incident resolution staff hours and lost business<br/><br/>
+              Ensure ultimate customer satisfaction
+              </p>
   },
   {
     id: 2,
-    altText: 'Oasis Discovery',
-    title: 'Event Manager Tool',
-    img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
+    altText: 'Discovery Tool',
 
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/DeviceDiscoveryNetworkView.png',
+    subtitle: <h4>Discovery Tool</h4>,
+    caption: <p>Today, change to your virtual and physical environments is a function of business, happening fast and in high volumes. Oasis Discovery is designed to keep up with today’s hybrid IT, regardless of the location of the assets and in spite of increasing rates in change volume and change types. Auto-discovery is crucial to your business because it is impossible to stay up to date with this tremendous volume of devices, applications and cloud resources without the help of a powerful tool.<br/><br/>Two of the most important components of an IT Operations Management Platform are discovering all of your logical, physical and virtual assets and automatically maintaining an accurate CMDB. Additionally, the CMDB demands knowing how each element is related to the business; there must always be context and no element or Configuration Item (CI) can be an island unto itself.
+    <br/><br/>The Oasis discovery engine is completely agentless, lightning fast, lightweight, and requires minimal credentials and IP addresses to do its work. The output of the Oasis Discovery engine drives the Oasis Analytics, Reporting and Automation Components. All assets and any changes are updated in near real-time.
+    <br/><br/>Discovery methods that are leveraged in Oasis include: ICMP, Netbios, SMB, SNMP, JMX, WinRM, SSH and credentials to inspect virtual environments, cloud-based resources in Azure, AWS, Google and containers with management layers such as Kubernetes. Application relationships can be discovered passively through a combination of SNMP, SSH, WinRM and Netflow: depending on your own policies for polling.</p>
   },
   {
     id: 3,
-    altText: 'Oasis Application & Infrastructure Monitoring',
-    title: 'Event Manager Tool',
-    img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
+    altText: 'Application and Infrastructure Monitoring',
+
+    img: 'images/appmonitoringmodal.jpg',
+    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
               NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
@@ -88,36 +63,24 @@ import {
   },
   {
     id: 4,
-    altText: 'Oasis Analytics',
-    title: 'Event Manager Tool',
-    img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
+    altText: 'Oasis Advanced Analytics - Moving Past the Thresholds',
 
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/analyticsmodal.jpg',
+    subtitle: <h4>Oasis delivers business impacting information straight out of your raw data.</h4>,
+    caption: <p>Countless feeds from your devices, applications, logs and events are consumed by the Oasis ingestion engine, then normalized to generate context. In turn, that information can be converted into actionable intelligence by the Oasis analytics engine.<br/><br/>
+              <ul>
+                <li>Find anomalies based on classifying disparate data sources</li>
+                <li>Easily forecast capacity challenges</li>
+                <li>Watch for deviations in time-series data so you can focus on the events that most impact your business</li>
+              </ul>
+            </p>
   },
   {
     id: 5,
     altText: 'Oasis Event Manager',
-    title: 'Event Manager Tool',
+
     img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
+    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
               NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
@@ -140,90 +103,70 @@ import {
   },
   {
     id: 6,
-    altText: 'Oasis Trap Adaptor',
-    title: 'Event Manager Tool',
-    img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
+    altText: 'Trap Adaptor SMNP',
 
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/trapadaptormodal.jpg',
+    subtitle: <h4>The Oasis Trap Adapter</h4>,
+    caption: <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
+                <b>At-A-Glance:</b><br/><br/>
+                <ul>
+                  <li>SNMP Trap Listener</li>
+                  <li>Immediate event generation</li>
+                  <li>Enterprise scalability</li>
+                  <li>Pre-built trap definitions cover thousands of different device manufacturers</li>
+                  <li>Create your own trap definitions in Oasis to capture your custom or vendor specific traps</li>
+                  <li>Create custom automation flows</li>
+                  <li>No limitation to what traps we can receive</li>
+                  <li>Fully configurable with Oasis API and Oasis Manager</li>
+                  <li>Integrates seamlessly with the Oasis Platform, Oasis CMDB, Oasis Automation, Oasis Reporting and Dashboards, and Service Desks</li>
+                </ul>
+            </p>
   },
   {
     id: 7,
-    altText: 'Oasis API suite',
-    title: 'Event Manager Tool',
-    img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
+    altText: 'The Oasis API',
 
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/apisuitemodal.jpg',
+    subtitle: <h4>The Oasis API is a full feature REST API for CMDB/Assets, Performance, Incidents and Automation.</h4>,
+    caption: <div><p>We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.</p>
+              <h4>Features:</h4>
+              <div>
+                <ul>
+                  <li>Easy to learn, simple to use</li>
+                  <li>Push notifications into Oasis</li>
+                  <li>Save any performance metrics from custom applications into Oasis</li>
+                  <li>Manage your automation workflows and digital operations</li>
+                  <li>Intelligent automation for IT Incident Management</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>IOT Ready</li>
+                  <li>Oasis Automation Ready</li>
+                  <li>CMDB/ Asset Management Ready</li>
+                  <li>Get any data (time-series or current) from the Oasis Platform</li>
+                  <li>Integrate any new system with Oasis in less than 5 minutes</li>
+                </ul>
+              </div>
+              <p>Request a copy of the Oasis API Document today.</p>
+              </div>
   },
   {
     id: 8,
-    altText: 'Cybervision',
-    title: 'Event Manager Tool',
-    img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
+    altText: 'Cybervision Cybersecurity',
 
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/cybervisionmodal.jpg',
+    subtitle: <h4>All-in-One Security Solution</h4>,
+    caption: <p>Cybervision is our leading all-in-one cybersecurity service, protecting your enterprise from cybersecurity attacks and keeping you in control of your security protocols. Extend your team with some of America's leading defense experts who leverage the renowned Mitre ATT&CK Matrix in tandem with the Oasis platform. If you've tried to attract and retain the talent needed to staff a Security Operations Center then you will appreciate getting a commitment that these skills are watching every move on your network and on your endpoints, 24 x 7 x 365.</p>
   }
 ];
  const platformItems = [
   {
     id: 1,
     altText: 'Core Features',
-    title: 'Event Manager Tool',
+
     img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
+    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
               NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
@@ -247,9 +190,9 @@ import {
   {
     id: 2,
     altText: 'Architecture',
-    title: 'Event Manager Tool',
+
     img: 'images/device.png',
-    subtitle: 'Reduce Noise with The Oasis Event Manager',
+    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
               NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
@@ -330,7 +273,7 @@ class Product extends React.Component {
               </div>
               <div className="col-md-7 col-sm-12">
                 <h3>{item.altText}</h3>
-                <h4>{item.subtitle}</h4>
+                {item.subtitle}
                 {item.caption}
               </div>
             </div>
