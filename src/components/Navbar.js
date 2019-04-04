@@ -63,7 +63,7 @@ class Navbar extends React.Component {
                     <ul className="navbar-nav navbar-right mega-menu" id="mySidenav">
 
                         <li className="nav-item dropdown">
-                            <a href={"/platform"} className="nav-link">Platform</a>
+                            <a className="nav-link">Platform</a>
                             <button data-toggle="collapse" data-target="#platformMega" aria-controls="platformMega" aria-expanded="false" className="toggle-icon collapsed"></button>
                             <div className="dropdown-content" id="platformMega">
                               <ul className="header">
@@ -186,7 +186,7 @@ class Navbar extends React.Component {
                             </div>
                         </li>
                         <li className="nav-item dropdown">
-                            <a href={"/solutions"} className="nav-link">Solutions</a>
+                            <a className="nav-link">Solutions</a>
                             <button className="navbar-toggle" data-toggle="collapse" data-target="#solutionsMega" aria-controls="solutionsMega" aria-expanded="false" className="toggle-icon collapsed"></button>
                             <div className="dropdown-content" id="solutionsMega">
                               <ul className="header">
