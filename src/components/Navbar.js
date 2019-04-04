@@ -131,7 +131,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-share text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Oasis API Suite</h4>
+                                      <h4 className="title">The Oasis API</h4>
                                       <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
                                     </div>
                                   </a>

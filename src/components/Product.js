@@ -118,59 +118,46 @@ import {
                   <li>Create custom automation flows</li>
                   <li>No limitation to what traps we can receive</li>
                   <li>Fully configurable with Oasis API and Oasis Manager</li>
-                  <li>Integrates seamlessly with the Oasis Platform, Oasis CMDB, Oasis Automation, Oasis Reporting and Dashboards, and Service Desks</li></p>
+                  <li>Integrates seamlessly with the Oasis Platform, Oasis CMDB, Oasis Automation, Oasis Reporting and Dashboards, and Service Desks</li>
+                </ul>
+            </p>
   },
   {
     id: 7,
-    altText: 'Oasis API suite',
+    altText: 'The Oasis API',
 
-    img: 'images/device.png',
-    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
-
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/apisuitemodal.jpg',
+    subtitle: <h4>The Oasis API is a full feature REST API for CMDB/Assets, Performance, Incidents and Automation.</h4>,
+    caption: <div><p>We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.</p>
+              <h4>Features:</h4>
+              <div>
+                <ul>
+                  <li>Easy to learn, simple to use</li>
+                  <li>Push notifications into Oasis</li>
+                  <li>Save any performance metrics from custom applications into Oasis</li>
+                  <li>Manage your automation workflows and digital operations</li>
+                  <li>Intelligent automation for IT Incident Management</li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li>IOT Ready</li>
+                  <li>Oasis Automation Ready</li>
+                  <li>CMDB/ Asset Management Ready</li>
+                  <li>Get any data (time-series or current) from the Oasis Platform</li>
+                  <li>Integrate any new system with Oasis in less than 5 minutes</li>
+                </ul>
+              </div>
+              <p>Request a copy of the Oasis API Document today.</p>
+              </div>
   },
   {
     id: 8,
-    altText: 'Cybervision',
+    altText: 'Cybervision Cybersecurity',
 
-    img: 'images/device.png',
-    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
-
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    img: 'images/cybervisionmodal.jpg',
+    subtitle: <h4>All-in-One Security Solution</h4>,
+    caption: <p>Cybervision is our leading all-in-one cybersecurity service, protecting your enterprise from cybersecurity attacks and keeping you in control of your security protocols. Extend your team with some of America's leading defense experts who leverage the renowned Mitre ATT&CK Matrix in tandem with the Oasis platform. If you've tried to attract and retain the talent needed to staff a Security Operations Center then you will appreciate getting a commitment that these skills are watching every move on your network and on your endpoints, 24 x 7 x 365.</p>
   }
 ];
  const platformItems = [

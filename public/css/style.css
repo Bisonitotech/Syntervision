@@ -1842,3 +1842,6 @@ ul.pattern .color8 {
   padding-right: 15px;
   text-decoration: underline;
 }
+.custom-tag .item-content li{
+  color: #8294a5 !important;
+}
