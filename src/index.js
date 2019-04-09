@@ -12,6 +12,9 @@ import WhoWeAre from './WhoWeAre';
 import DemoRequest from './DemoRequest';
 import PrivacyPolicy from './PrivacyPolicy';
 import Security from './Security';
+import Industries from './Industries';
+import Integrations from './Integrations';
+import Terms from './Terms';
 
 class Root extends React.Component {
   render() {
@@ -28,6 +31,9 @@ class Root extends React.Component {
   			  <Route path={`${process.env.PUBLIC_URL}/demorequest`} component={DemoRequest}/>
   			  <Route path={`${process.env.PUBLIC_URL}/privacypolicy`} component={PrivacyPolicy}/>
   			  <Route path={`${process.env.PUBLIC_URL}/security`} component={Security}/>
+  			  <Route path={`${process.env.PUBLIC_URL}/industries`} component={Industries}/>
+  			  <Route path={`${process.env.PUBLIC_URL}/integrations`} component={Integrations}/>
+  			  <Route path={`${process.env.PUBLIC_URL}/terms`} component={Terms}/>
   			</Switch>
 		  </BrowserRouter>
   	);

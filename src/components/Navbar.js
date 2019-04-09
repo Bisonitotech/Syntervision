@@ -198,10 +198,10 @@ class Navbar extends React.Component {
                                     <a href="/security">Security</a>
                                   </div>
                                   <div className="item">
-                                    <a href="#">By Industry</a>
+                                    <a href="/industries">By Industry</a>
                                   </div>
                                   <div className="item">
-                                    <a href="#">Integrations</a>
+                                    <a href="/integrations">Integrations</a>
                                   </div>
                                   <div className="item">
                                     <a href="#">Digital Transformation</a>
@@ -293,7 +293,7 @@ class Navbar extends React.Component {
                             <a href={"/privacypolicy"} className="nav-link">Privacy Policy</a>
                         </li>
                         <li className="nav-item mobile-only">
-                            <a href={"#"} className="nav-link">Terms & Conditions</a>
+                            <a href={"/terms"} className="nav-link">Terms & Conditions</a>
                         </li>
                     </ul>
                     {/* <div className="nav-button ml-auto">
@@ -313,7 +313,7 @@ class Navbar extends React.Component {
                     <li className="imp-menu-item"><a href="/demorequest">Request a Demo</a></li>
                     <li className="imp-menu-item"><a href="#">Careers</a></li>
                     <li><a href="/privacypolicy">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="/terms">Terms & Conditions</a></li>
                     <i className="mdi mdi-close" data-toggle="collapse" data-target="#subbarCollapse" aria-controls="subbarCollapse" aria-expanded="false" aria-label="Toggle navigation"></i>
 
                   </div>
