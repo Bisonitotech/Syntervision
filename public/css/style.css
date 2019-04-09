@@ -1845,3 +1845,13 @@ ul.pattern .color8 {
 .custom-tag .item-content li{
   color: #8294a5 !important;
 }
+h3.other-p-title{
+  font-size: 34px;
+  line-height: 42px;
+  color: #1E293B;
+}
+p.other-p-content{
+  font-size: 14px;
+  line-height: 24px;
+  color: #7887A0;
+}
