@@ -11,6 +11,7 @@ import PlatformOverview from './PlatformOverview';
 import WhoWeAre from './WhoWeAre';
 import DemoRequest from './DemoRequest';
 import PrivacyPolicy from './PrivacyPolicy';
+import Security from './Security';
 
 class Root extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class Root extends React.Component {
   			  <Route path={`${process.env.PUBLIC_URL}/automation`} component={Automation}/>
   			  <Route path={`${process.env.PUBLIC_URL}/demorequest`} component={DemoRequest}/>
   			  <Route path={`${process.env.PUBLIC_URL}/privacypolicy`} component={PrivacyPolicy}/>
+  			  <Route path={`${process.env.PUBLIC_URL}/security`} component={Security}/>
   			</Switch>
 		  </BrowserRouter>
   	);

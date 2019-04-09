@@ -195,7 +195,7 @@ class Navbar extends React.Component {
                               <div className="content">
                                 <div>
                                   <div className="item">
-                                    <a href="#">Security</a>
+                                    <a href="/security">Security</a>
                                   </div>
                                   <div className="item">
                                     <a href="#">By Industry</a>
