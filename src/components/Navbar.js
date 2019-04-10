@@ -126,7 +126,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-graph3 text-custom"></i>
                                     </div>
                                     <div>
-                                        
+
                                       <h4 className="title">Trap Adaptor SMNP</h4>
 
                                       <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform.</p>
@@ -270,12 +270,12 @@ class Navbar extends React.Component {
                                   <div className="item">
                                     <a href="#">Who We Are</a>
                                   </div>
-                                  <div className="item">
+                                  {/* <div className="item">
                                     <a href="#">Leadership</a>
                                   </div>
                                   <div className="item">
                                     <a href="#">Partnerships</a>
-                                  </div>
+                                  </div> */}
                                 </div>
                                 <div className="bottom-part platform">
                                   <img src="images/device.png" />
