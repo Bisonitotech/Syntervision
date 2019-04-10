@@ -1433,11 +1433,17 @@ ul.pattern .color8 {
     max-width: 240px;
     line-height: 11px;
 }
-.bottom-part .right-content button{
-    border-radius: 8px;
-    background: #D80000;
-    width: 65px;
-    height: 21px;
+.bottom-part .right-content a.learnmore{
+
+    border-radius: 8px!important;
+    background: #D80000!important;
+    width: 130px;
+    height: 26px!important;
+    padding: 4px 15px!important;
+    margin-left: 0;
+    font-weight: 300;
+    color: white;
+    font-size: 14px!important;
 }
 .bottom-part .right-content h5 {
     color: #1E293B;
