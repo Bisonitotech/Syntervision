@@ -1855,3 +1855,12 @@ p.other-p-content{
   line-height: 24px;
   color: #7887A0;
 }
+.mega-menu .dropdown-content .content{
+  overflow: -moz-scrollbars-none;
+}
+.mega-menu .dropdown-content .content{
+  -ms-overflow-style: none;
+}
+.mega-menu .dropdown-content .content::-webkit-scrollbar{
+  width: 0 !important;
+}
