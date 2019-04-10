@@ -1445,8 +1445,20 @@ ul.pattern .color8 {
     color: white;
     font-size: 14px!important;
 }
+.bottom-part .right-content a.learnmore:hover {
+    color: #ccc!important;
+}
 .bottom-part .right-content h5 {
     color: #1E293B;
+}
+.integrations-flex{
+  display: flex;
+  height: 50px;
+}
+.integrations-flex img{
+  width: 30%;
+  justify-content: space-between;
+  object-fit: contain;
 }
 #navbarCollapse {
     justify-content: flex-end;
