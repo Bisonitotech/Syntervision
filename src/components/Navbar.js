@@ -126,7 +126,7 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-graph3 text-custom"></i>
                                     </div>
                                     <div>
-                                        
+
                                       <h4 className="title">Trap Adaptor SMNP</h4>
 
                                       <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform.</p>
@@ -187,7 +187,7 @@ class Navbar extends React.Component {
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <Button color="danger">Learn More</Button>
+                                    <a color="danger" className="learnmore" href="https://www.hubspot.com/">Learn More</a>
                                   </div>
                                 </div>
                               </div>
@@ -270,12 +270,12 @@ class Navbar extends React.Component {
                                   <div className="item">
                                     <a href="#">Who We Are</a>
                                   </div>
-                                  <div className="item">
+                                  {/* <div className="item">
                                     <a href="#">Leadership</a>
                                   </div>
                                   <div className="item">
                                     <a href="#">Partnerships</a>
-                                  </div>
+                                  </div> */}
                                 </div>
                                 <div className="bottom-part platform">
                                   <img src="images/device.png" />
