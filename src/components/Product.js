@@ -13,24 +13,27 @@ import {
     altText: 'Oasis Automation',
 
     img: 'images/automationmodal.jpg',
-    subtitle: <h4>Simplify With Automation The Oasis Virtual Operator (OVO)</h4>,
+    subtitle: <h4>Simplify Automation with The Oasis Virtual Operator (OVO)</h4>,
     caption: <p>If you’re looking for a world class RPA, you’ve found it with Syntervision. Our enterprise product takes advantage of robotic process automation and artificial intelligence by offering a more cost-effective solution that’ll increase savings without sacrificing quality.
-              <br/><br/>The Oasis Virtual Operator delivers exceptional automation services for any repeatable process through cognitive computing. The graphical user interface offers a number of common automations right out of the box, but can also be customized! The OVO utilizes multi-path processes to quickly learn and implement the specific scripted language inputted into the system with limitless flexibility and control. And OVO can be purchased as a standalone product or as part of the Oasis Platform.<br/><br/>
-              <b>Enter the World of Automation to Experience Simplicity</b>
-              <br/><br/>Oasis Automation is a natural step in the lifecycle of a maturing Enterprise Service Management or IT Operations strategy in any business.<br/><br/>
-              Reduces errors<br/><br/>Automates mundane tasks<br/><br/>
-              Responds to common deviations rapidly<br/><br/>
-              Reduce ticket count by ~80%<br/><br/>
-              Save time and money in incident resolution staff hours and lost business<br/><br/>
-              Ensure ultimate customer satisfaction
+    <p>The Oasis Virtual Operator delivers exceptional automation services for any repeatable process through cognitive computing. The graphical user interface offers a number of common automations right out of the box, but can also be customized! The OVO utilizes multi-path processes to quickly learn and implement the specific scripted language inputted into the system with limitless flexibility and control. And OVO can be purchased as a standalone product or as part of the Oasis Platform.</p>
+    <h5>Enter the World of Automation to Experience Simplicity</h5>
+    <p>Oasis Automation is a natural step in the lifecycle of a maturing Enterprise Service Management or IT Operations strategy in any business.</p>
+              <ul>
+                <li>Reduce Errors</li>
+                <li>Automated Mundane Tasks</li>
+                <li>Responds to Common Deviations Rapidly</li>
+                <li>Reduce Ticket Count by 80%</li>
+                <li>Save time and money in incident resolution staff hours and lost business</li>
+                <li>Ensure ultimate customer satisfaction</li>
+              </ul>
               </p>
   },
   {
     id: 2,
-    altText: 'Discovery Tool',
+    altText: 'Discovery Engine',
 
     img: 'images/DeviceDiscoveryNetworkView.png',
-    subtitle: <h4>Discovery Tool</h4>,
+    subtitle: <h4></h4>,
     caption: <p>Today, change to your virtual and physical environments is a function of business, happening fast and in high volumes. Oasis Discovery is designed to keep up with today’s hybrid IT, regardless of the location of the assets and in spite of increasing rates in change volume and change types. Auto-discovery is crucial to your business because it is impossible to stay up to date with this tremendous volume of devices, applications and cloud resources without the help of a powerful tool.<br/><br/>Two of the most important components of an IT Operations Management Platform are discovering all of your logical, physical and virtual assets and automatically maintaining an accurate CMDB. Additionally, the CMDB demands knowing how each element is related to the business; there must always be context and no element or Configuration Item (CI) can be an island unto itself.
     <br/><br/>The Oasis discovery engine is completely agentless, lightning fast, lightweight, and requires minimal credentials and IP addresses to do its work. The output of the Oasis Discovery engine drives the Oasis Analytics, Reporting and Automation Components. All assets and any changes are updated in near real-time.
     <br/><br/>Discovery methods that are leveraged in Oasis include: ICMP, Netbios, SMB, SNMP, JMX, WinRM, SSH and credentials to inspect virtual environments, cloud-based resources in Azure, AWS, Google and containers with management layers such as Kubernetes. Application relationships can be discovered passively through a combination of SNMP, SSH, WinRM and Netflow: depending on your own policies for polling.</p>
@@ -63,7 +66,7 @@ import {
   },
   {
     id: 4,
-    altText: 'Oasis Advanced Analytics - Moving Past the Thresholds',
+    altText: 'Oasis Advanced Analytics',
 
     img: 'images/analyticsmodal.jpg',
     subtitle: <h4>Oasis delivers business impacting information straight out of your raw data.</h4>,
@@ -79,7 +82,7 @@ import {
     id: 5,
     altText: 'Oasis Event Manager',
 
-    img: 'images/device.png',
+    img: 'images/eventmanager-modal.png',
     subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
@@ -108,7 +111,7 @@ import {
     img: 'images/trapadaptormodal.jpg',
     subtitle: <h4>The Oasis Trap Adapter</h4>,
     caption: <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
-                <b>At-A-Glance:</b><br/><br/>
+                <h4>At-A-Glance:</h4>
                 <ul>
                   <li>SNMP Trap Listener</li>
                   <li>Immediate event generation</li>
@@ -128,9 +131,8 @@ import {
 
     img: 'images/apisuitemodal.jpg',
     subtitle: <h4>The Oasis API is a full feature REST API for CMDB/Assets, Performance, Incidents and Automation.</h4>,
-    caption: <div><p>We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.</p>
+    caption: <p>We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.
               <h4>Features:</h4>
-              <div>
                 <ul>
                   <li>Easy to learn, simple to use</li>
                   <li>Push notifications into Oasis</li>
@@ -138,8 +140,6 @@ import {
                   <li>Manage your automation workflows and digital operations</li>
                   <li>Intelligent automation for IT Incident Management</li>
                 </ul>
-              </div>
-              <div>
                 <ul>
                   <li>IOT Ready</li>
                   <li>Oasis Automation Ready</li>
@@ -147,9 +147,8 @@ import {
                   <li>Get any data (time-series or current) from the Oasis Platform</li>
                   <li>Integrate any new system with Oasis in less than 5 minutes</li>
                 </ul>
-              </div>
               <p>Request a copy of the Oasis API Document today.</p>
-              </div>
+              </p>
   },
   {
     id: 8,

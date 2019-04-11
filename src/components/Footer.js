@@ -26,8 +26,7 @@ class Footer extends React.Component {
                         <h4>Syntervision</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="JavaScript:Void(0);">Company</Link></li>
-                                <li><Link to="JavaScript:Void(0);">Leadership</Link></li>
+                                <li><Link to="http://localhost:3000/whoweare">Company</Link></li>
                                 <li><Link to="JavaScript:Void(0);">Careers</Link></li>
                                 <li><Link to="JavaScript:Void(0);">Contact us</Link></li>
                             </ul>
@@ -48,7 +47,6 @@ class Footer extends React.Component {
                         <h4>Support</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="JavaScript:Void(0);">FAQ</Link></li>
                                 <li><Link to="/privacypolicy">Privacy Policy</Link></li>
                                 <li><Link to="/terms">Terms & Condition</Link></li>
                             </ul>

@@ -139,6 +139,7 @@ b {
     -webkit-justify-content: center;
     flex-direction: row;
     -webkit-flex-direction: row;
+    padding-top: 5%;
 }
 
 .bg-overlay {
@@ -1752,7 +1753,7 @@ ul.pattern .color8 {
 .item-content h4{
     color: #8294a5 !important;
     font-size: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     max-width: 596px;
 }
 .item-content h3{
@@ -1776,7 +1777,7 @@ ul.pattern .color8 {
 
 .item-content .row > div img{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 }
 @media(min-width: 769px){
   .mobile-products .modal-header{

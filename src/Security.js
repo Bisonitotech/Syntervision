@@ -30,7 +30,7 @@ class Security extends React.Component {
                 </div>
                 <div class="col-lg-6">
                   <div class="features-img features-right text-right">
-                    <img src="images/security-modal.jpg" alt="Security" class="img-fluid" />
+                    <img src="images/secuirty-modal.png" alt="Security" class="img-fluid" />
                   </div>
                 </div>
               </div>
