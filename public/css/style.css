@@ -1895,3 +1895,7 @@ p.other-p-content{
 .mega-menu .dropdown-content .content::-webkit-scrollbar{
   width: 0 !important;
 }
+.product-modal .item-content .row b{
+  font-family: 'arial';
+  font-weight: 700;
+}

@@ -103,10 +103,10 @@ import {
   },
   {
     id: 6,
-    altText: 'Trap Adaptor SMNP',
+    altText: 'The Oasis Trap Adapt‌e‌r',
 
     img: 'images/trapadaptormodal.jpg',
-    subtitle: <h4>The Oasis Trap Adapter</h4>,
+    subtitle: <h4>Fully Configurable S‌N‌MP Trap Listener & Forwarder</h4>,
     caption: <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
                 <b>At-A-Glance:</b><br/><br/>
                 <ul>
@@ -124,31 +124,33 @@ import {
   },
   {
     id: 7,
-    altText: 'The Oasis API',
+    altText: 'Oasis API Suite',
 
     img: 'images/apisuitemodal.jpg',
-    subtitle: <h4>The Oasis API is a full feature REST API for CMDB/Assets, Performance, Incidents and Automation.</h4>,
-    caption: <div><p>We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.</p>
-              <h4>Features:</h4>
-              <div>
-                <ul>
-                  <li>Easy to learn, simple to use</li>
-                  <li>Push notifications into Oasis</li>
-                  <li>Save any performance metrics from custom applications into Oasis</li>
-                  <li>Manage your automation workflows and digital operations</li>
-                  <li>Intelligent automation for IT Incident Management</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>IOT Ready</li>
-                  <li>Oasis Automation Ready</li>
-                  <li>CMDB/ Asset Management Ready</li>
-                  <li>Get any data (time-series or current) from the Oasis Platform</li>
-                  <li>Integrate any new system with Oasis in less than 5 minutes</li>
-                </ul>
-              </div>
-              <p>Request a copy of the Oasis API Document today.</p>
+    subtitle: <h4>Easily Call Data In or Get Data Out</h4>,
+    caption: <div>
+                {/* <p>We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.</p>
+                <h4>Features:</h4>
+                <div>
+                  <ul>
+                    <li>Easy to learn, simple to use</li>
+                    <li>Push notifications into Oasis</li>
+                    <li>Save any performance metrics from custom applications into Oasis</li>
+                    <li>Manage your automation workflows and digital operations</li>
+                    <li>Intelligent automation for IT Incident Management</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li>IOT Ready</li>
+                    <li>Oasis Automation Ready</li>
+                    <li>CMDB/ Asset Management Ready</li>
+                    <li>Get any data (time-series or current) from the Oasis Platform</li>
+                    <li>Integrate any new system with Oasis in less than 5 minutes</li>
+                  </ul>
+                </div>
+                <p>Request a copy of the Oasis API Document today.</p> */}
+                <p> <b>The Oasis API</b> is a full feature REST API for CMDB/Assets, Performance, Events, Maintenance, Incidents and Automation. Syntervision designed the API to be as simple as possible while also being enterprise scalable, powerful and flexible. Oasis uses the same API internally when creating integrations with other monitoring and service desk systems.</p>
               </div>
   },
   {
