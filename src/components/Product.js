@@ -63,13 +63,14 @@ import {
   },
   {
     id: 4,
-    altText: 'Oasis Advanced Analytics - Moving Past the Thresholds',
+    altText: 'Oasis Advanced Analytics',
 
     img: 'images/analyticsmodal.jpg',
-    subtitle: <h4>Oasis delivers business impacting information straight out of your raw data.</h4>,
-    caption: <p>Countless feeds from your devices, applications, logs and events are consumed by the Oasis ingestion engine, then normalized to generate context. In turn, that information can be converted into actionable intelligence by the Oasis analytics engine.<br/><br/>
+    subtitle: <h4>Providing Guidance and Insight Into Your Enterprise</h4>,
+    caption: <p>Oasis delivers business impacting information straight out of your raw data. Countless feeds from your devices, applications, logs and events are consumed by the Oasis Discovery engine, then normalized to generate context. In turn, that information can be converted into actionable intelligence with Oasis Advanced Analytics.<br/><br/>
               <ul>
                 <li>Find anomalies based on classifying disparate data sources</li>
+                <li>Show trends in historical data</li>
                 <li>Easily forecast capacity challenges</li>
                 <li>Watch for deviations in time-series data so you can focus on the events that most impact your business</li>
               </ul>
