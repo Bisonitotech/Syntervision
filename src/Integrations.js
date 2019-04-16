@@ -33,8 +33,8 @@ class Integrations extends React.Component {
                 </div>
                 <div class="col-lg-6">
                   <div class="integrations-flex">
-                    <img src="images/og-newrelic-logo.png" alt="Integrations" class="img-fluid" />
-                    <img src="images/AppDynamics_Logo_Master_RGB_Black.jpg" alt="Integrations" class="img-fluid" />
+                    <img src="images/NewRelic-logo-bug.png" alt="Integrations" class="img-fluid" />
+                    <img src="images/appd-logo-340x0_q100.png" alt="Integrations" class="img-fluid" />
                     <img src="images/sn-logo-transparent.png" alt="Integrations" class="img-fluid" />
                   </div>
                   <div class="integrations-flex">

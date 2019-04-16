@@ -14,6 +14,7 @@ class Navbar extends React.Component {
       index: 0,
     };
     this.closeModal = this.closeModal.bind(this)
+    this.showProducts = this.showProducts.bind(this)
   }
   showProducts(index){
     if(window.innerWidth<=768){
@@ -329,7 +330,7 @@ class Navbar extends React.Component {
             </div>
             {this.state.modalShow && <div className="product-modal-wrap">
               <div className="product-modal">
-                <Product contentName={this.state.modalContent} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal} interval={5000}/>
+                <Product contentName={this.state.modalContent} showProducts={this.showProducts} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal} interval={5000}/>
               </div>
             </div>}
         </nav>

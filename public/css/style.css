@@ -1454,6 +1454,7 @@ ul.pattern .color8 {
 .integrations-flex{
   display: flex;
   height: 50px;
+  justify-content: space-between;
 }
 .integrations-flex img{
   width: 30%;
@@ -1898,4 +1899,9 @@ p.other-p-content{
 .product-modal .item-content .row b{
   font-family: 'arial';
   font-weight: 700;
+}
+a.underline-link {
+  text-decoration: underline!important;
+  color: #212534!important;
+  cursor: pointer;
 }
