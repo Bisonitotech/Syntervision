@@ -26,21 +26,18 @@ class Process extends React.Component {
                     <div className="text-center process-box">
                         <i className="pe-7s-share text-custom"></i>
                         <h4 className="padding-t-15">Integration</h4>
-                        <p className="text-muted">The Big Oxmox advised her not to do so.</p>
                     </div>
                 </div>
                 <div className="col-lg-4 plan-line">
                     <div className="text-center process-box">
                         <i className="pe-7s-search text-custom"></i>
                         <h4 className="padding-t-15">Discovery</h4>
-                        <p className="text-muted">Little Blind Text didn’t listen.</p>
                     </div>
                 </div>
                 <div className="col-lg-4">
                     <div className="text-center process-box">
                         <i className="pe-7s-rocket text-custom"></i>
                         <h4 className="padding-t-15">Automate</h4>
-                        <p className="text-muted">When she reached the first hills.</p>
                     </div>
                 </div>
                 <div className="text-center mx-auto">

@@ -38,8 +38,8 @@ class PrivacyPolicy extends React.Component {
                   <div className="container">
                     <div className="row">
                       <div className="col-md-12">
-                        <h3 className="title">PRIVACY TITLE</h3>
-                        <h6 className="subtitle">Last updated June 29, 2018</h6>
+                        <h3 className="title">PRIVACY NOTICE</h3>
+                        <h6 className="subtitle">Last updated April 11th, 2019</h6>
                         <p>
                           Thank you for choosing to be part of our community at Syntervision, Inc. (“company”, “we”, “us”, or “our”). We are committed toprotecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or ourpractices with regards to your personal information, please contact us at greg.elmore@syntervision.com.<br/><br/>When you visit our website and use our services and/or software, you trust us with your personal information. We take your privacyvery seriously. In this privacy notice, we describe our privacy policy. We seek to explain to you in the clearest way possible whatinformation we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through itcarefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of ourSites and our services.<br/><br/>This privacy policy applies to all information collected through our website and software, and/or any related services,sales, marketing or events (we refer to them collectively in this privacy policy as the <b>"Sites"</b>). <br/><br/>
                           <b>Please read this privacy policy carefully as it will help you make informed decisions about sharing your personalinformation with us. </b>
