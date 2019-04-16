@@ -1424,6 +1424,10 @@ ul.pattern .color8 {
     display: flex;
     padding-top: 40px;
     align-items: center;
+    /* display: none; */
+}
+.bottom-part{
+    display: none;
 }
 .bottom-part .right-content{
     padding-left: 40px;

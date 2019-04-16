@@ -25,6 +25,27 @@ class Industries extends React.Component {
                       Syntervision provides integrated IT solutions with the Oasis platform. See how Oasis works for your industry, integrates with your existing systems, and gets you started on your digital transformation journey.<br/><br/>
                       Each industry faces unique business challenges. Our job is to understand what those challenges are and tailor solutions that help automate business processes and make your data work for you. Oasis can help companies in any industry achieve their business goals.
                     </p>
+                    <br/>
+                    <br/>
+                    <h3>Life Sciences</h3>
+                    <p>
+                      With innovation and technology at the forefront of the life sciences industry, we partner with our clients to digitize their R&D, advance drug research, improve drug time to market and improve IT operations. The Oasis platform has enabled the automation of thousands of requests resulting in delighted employees and reduced costs across multiple departments.
+
+                      <ul>
+                        <li>Improve time to market for drugs</li>
+                        <li>Provide visibility into business outcomes for drug development</li>
+                        <li>Improve end user experience</li>
+                      </ul>
+                    </p>
+                    <br/>
+                    <br/>
+                    <h3>Healthcare</h3>
+                    <p>The Healthcare industry is experiencing massive digital transformation, shifting its focus to improved customer experiences, security, and AI. Our client’s use cases range from implementing telemedicine programs to digitizing clinical workflows. With numerous high-value opportunities available, Oasis helps healthcare revolutionize their service offerings.</p>
+                    <ul>
+                      <li>Access client or clinical data real-time, anywhere</li>
+                      <li>Reduce costs and prevent identity theft</li>
+                      <li>Increase efficiency and patient satisfaction</li>
+                    </ul>
 
                   </div>
                 </div>

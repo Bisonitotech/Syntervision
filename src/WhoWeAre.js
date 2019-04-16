@@ -17,7 +17,7 @@ class WhoWeAre extends React.Component {
         backgroundSize : 'cover',
         backgroundPosition : 'center',
       };
- 
+
   	return (
           <Route>
         <Aux>
@@ -36,7 +36,7 @@ class WhoWeAre extends React.Component {
                             </div>
                        </div>
                     </div>
-                    
+
                 </section>
 
                 <section className="section pt-5" id="services">
@@ -54,33 +54,34 @@ class WhoWeAre extends React.Component {
                         <br />
                         <h1 className="section-title text-center">Who We Are</h1>
                         <div className="section-title-border margin-t-20"></div>
-                        <h3 className="section-subtitle text-muted text-justify padding-t-30 font-secondary text-center">Our mission is to automate and scale the ability of IT Operations to meet the demands of digital transformation</h3>
+                        <h3 className="section-subtitle text-muted text-justify padding-t-30 font-secondary text-center">Our mission is to automate and scale the ability of enterprise IT Operations meet the demands of digital transformation.</h3>
+                        <p className="text-muted text-center">Syntervision provides Oasis, an end-to-end monitoring and data management platform as a holistic and foundational solution for accelerating digital transformation. We execute on this strategy in 3 steps:</p>
                     </div>
                 </div>
                 <div className="row margin-t-30">
                     <div className="col-lg-4 margin-t-20">
                         <div className="services-box text-center hover-effect">
                             <i className="pe-7s-refresh-2 text-custom"></i>
-                            <h4 className="padding-t-15">Automation</h4>
-                            <p className="padding-t-15 text-muted">Delivering exceptional monitoring and automation services for your enterprise through cognitive computing. Leverage out-of-the-box solutions or make your own. Seamlessly integrate with other technology and departments for widespread and proactive business impact.</p>
+                            <h4 className="padding-t-15">Aggregation</h4>
+                            <p className="padding-t-15 text-muted">Gain a full, current view of the enterprise ecosystem through network and device discovery.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 margin-t-20">
                         <div className="services-box text-center hover-effect">
                             <i className="pe-7s-display2 text-custom"></i>
-                            <h4 className="padding-t-15">Integration</h4>
-                            <p className="padding-t-15 text-muted">Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</p>
+                            <h4 className="padding-t-15">Automation</h4>
+                            <p className="padding-t-15 text-muted">Automate repeatable processes so that your delivery pipelines are more responsive and personnel can focus on higher level work.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 margin-t-20">
                         <div className="services-box text-center hover-effect">
                             <i className="pe-7s-network text-custom"></i>
-                            <h4 className="padding-t-15">Security</h4>
-                            <p className="padding-t-15 text-muted">With unprecedented visibility, dynamic solutions, and advanced analytics, you are able to truly understand your enterprise ecosystem. Gaining greater efficiency in identifying and implementing your initiatives. Giving you the ability to reach your digital transformation goals.</p>
+                            <h4 className="padding-t-15">Control</h4>
+                            <p className="padding-t-15 text-muted">Manage applications and infrastructure seamlessly, optimize services, and truly achieve business agility.</p>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </section>
 
@@ -89,7 +90,7 @@ class WhoWeAre extends React.Component {
                 <Contact />
 
                 <SocialMedia />
-                
+
                 <Footer />
 
                 <FooterLinks />
