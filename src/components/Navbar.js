@@ -183,7 +183,7 @@ class Navbar extends React.Component {
                                     </div>
                                   </a>
                                 </div>}
-                                <div className="bottom-part platform">
+                                <div className="bottom-part platform try-oasis">
                                   <img src="images/device.png" />
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
@@ -248,7 +248,7 @@ class Navbar extends React.Component {
                                     </div>
                                   </a>
                                 </div>
-                                <div className="bottom-part platform">
+                                <div className="bottom-part platform try-oasis">
                                   <img src="images/device.png" />
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
@@ -269,7 +269,7 @@ class Navbar extends React.Component {
                               <div className="content">
                                 <div>
                                   <div className="item">
-                                    <a href="#">Who We Are</a>
+                                    <a href="/whoweare">Who We Are</a>
                                   </div>
                                   {/* <div className="item">
                                     <a href="#">Leadership</a>
