@@ -94,10 +94,10 @@ import {
   },
   {
     id: 6,
-    altText: 'Trap Adaptor SMNP',
+    altText: 'Trap Adapter SNMP',
 
     img: 'images/trapadaptormodal.jpg',
-    subtitle: <h4>The Oasis Trap Adapter</h4>,
+    subtitle: <h4>The Oasis Trap Adapter SNMP</h4>,
     caption: <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
                 <h4>At-A-Glance:</h4>
                 <ul>
@@ -150,17 +150,6 @@ import {
  const platformItems = [
   {
     id: 1,
-    altText: 'Core Features',
-
-    img: 'images/device.png',
-    subtitle: <h4></h4>,
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker.</p>
-  },
-  {
-    id: 2,
     altText: 'Architecture',
 
     img: 'images/device.png',
