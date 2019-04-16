@@ -27,9 +27,6 @@ class Footer extends React.Component {
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
                                 <li><a href="/demorequest">Contact</a></li>
-                                <li><Link to="JavaScript:Void(0);">Leadership</Link></li>
-                                <li><Link to="JavaScript:Void(0);">Careers</Link></li>
-                                <li><Link to="JavaScript:Void(0);">Contact us</Link></li>
                             </ul>
                         </div>
                     </div>
