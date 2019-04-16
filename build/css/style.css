@@ -1777,7 +1777,7 @@ ul.pattern .color8 {
 
 .item-content .row > div img{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 }
 @media(min-width: 769px){
   .mobile-products .modal-header{
@@ -1834,6 +1834,19 @@ ul.pattern .color8 {
 .contents-title{
   margin-top: 20px;
   margin-bottom: 10px;
+}
+.product-modal .item-content .row{
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.product-modal .item-content{
+  padding: 120px 15px 60px;
+  min-height: calc(100vh - 100px);
+  background: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .privacy *{
   font-family: 'Montserrat', sans-serif;

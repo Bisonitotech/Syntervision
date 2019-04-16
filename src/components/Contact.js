@@ -9,7 +9,7 @@ class Contact extends React.Component {
                 <div className="col-lg-8 offset-lg-2">
                     <h1 className="section-title text-center">Get In Touch</h1>
                     <div className="section-title-border margin-t-20"></div>
-                    <p className="section-subtitle text-muted text-center font-secondary padding-t-30">We thrive when coming up with innovative ideas but also understand that a smart concept should be supported with measurable results.</p>
+                    <p className="section-subtitle text-muted text-center font-secondary padding-t-30"></p>
                 </div>
             </div>
             <div className="row">

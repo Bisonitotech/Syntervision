@@ -252,7 +252,7 @@ class Navbar extends React.Component {
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <button></button>
+                                    <a color="danger" className="learnmore" href="https://www.hubspot.com/">Learn More</a>
                                   </div>
                                 </div>
                               </div>
@@ -268,7 +268,7 @@ class Navbar extends React.Component {
                               <div className="content">
                                 <div>
                                   <div className="item">
-                                    <a href="#">Who We Are</a>
+                                    <a href="/whoweare">Who We Are</a>
                                   </div>
                                   {/* <div className="item">
                                     <a href="#">Leadership</a>
@@ -282,7 +282,7 @@ class Navbar extends React.Component {
                                   <div className="right-content">
                                     <h5>Join Oasis Webinar</h5>
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <button></button>
+                                    <a color="danger" className="learnmore" href="https://www.hubspot.com/">Learn More</a>
                                   </div>
                                 </div>
                               </div>

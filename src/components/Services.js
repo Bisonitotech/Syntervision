@@ -9,7 +9,7 @@ class Services extends React.Component {
                     <div className="col-lg-8 offset-lg-2">
                         <h1 className="section-title text-center">Our Platform</h1>
                         <div className="section-title-border margin-t-20"></div>
-                        <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">Syntervision was founded in 1994 as a consulting company. Our evolution began when we started offering engineering and management solution services to large enterprises. By 2005, we were established as a SaaS company committed to filling in the gaps of existing ITSM tools with a platform that was simple and scalable. At Syntervision, integrity matters: we are in business to offer solutions that unify IT Service Management and bring synergy to your enterprise.</p>
+                        <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">Syntervision was founded in 1994 as a consulting business. Our evolution began when we started offering engineering and management solution services to large enterprises. By 2005, we were established as a SaaS company committed to filling the gaps of existing ITSM tools with a platform that was simple and scalable. Meet our flagship software: The Oasis Platform, an end-to-end data management solution built to enable digital transformation and lead enterprises into the Cognitive Era.</p>
                     </div>
                 </div>
                 <div className="row margin-t-30">
@@ -17,7 +17,7 @@ class Services extends React.Component {
                         <div className="services-box text-center hover-effect">
                             <i className="pe-7s-refresh-2 text-custom"></i>
                             <h4 className="padding-t-15">Automation</h4>
-                            <p className="padding-t-15 text-muted">Oasis Automation is a natural step in the lifecycle of a maturing Enterprise Service Management or IT Operations strategy in any business.</p>
+                            <p className="padding-t-15 text-muted">Use the Oasis Virtual Operator (OVO) to accelerate your DevOps strategy by automating service requests, deployment steps, or other manual tasks.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 margin-t-20">
@@ -47,7 +47,7 @@ class Services extends React.Component {
                         <div className="services-box text-center hover-effect">
                             <i className="pe-7s-search text-custom"></i>
                             <h4 className="padding-t-15">Discovery</h4>
-                            <p className="padding-t-15 text-muted">Asset Discovery is simple and comprehensive with Oasis. It starts by seeding some basic information such as an IP address of a core device like a backbone switch or router and adding a community string.</p>
+                            <p className="padding-t-15 text-muted">The Oasis Discovery engine includes both network and device discovery. Supporting numerous protocols and sources, all discoverable assets are added into a detailed inventory.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 margin-t-20">

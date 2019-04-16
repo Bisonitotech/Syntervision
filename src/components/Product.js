@@ -43,26 +43,14 @@ import {
     altText: 'Application and Infrastructure Monitoring',
 
     img: 'images/appmonitoringmodal.jpg',
-    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
-
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    subtitle: <p>Oasis, based on how it is configured, can monitor virtually anything and everything. Since the Oasis platform was designed to do end-to-end service management without the complexity of multiple tools, it is not dependent on other products to complete the solution’s monitoring capabilities. It is important to note, however, that there are numerous products that work well in tandem with Oasis; that flexibility allows us to integrate with your existing ITOM tools, home grown monitoring, element managers and performance management solutions.<br/><br/>
+    <ul>
+      <li>Measure end-user-experience and application performance via synthetic checks</li>
+      <li>Network analysis of traffic to monitor production traffic</li>
+      <li>Application Performance Monitoring</li>
+      <li>Core Monitoring (Availability, SLA, Event, Asset, Incident, Service Management, and more)</li>
+    </ul>
+  </p>
   },
   {
     id: 4,
@@ -165,52 +153,19 @@ import {
     altText: 'Core Features',
 
     img: 'images/device.png',
-    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
+    subtitle: <h4></h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
               NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
-
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+              impacting events such as outages and performance degradations, quicker.</p>
   },
   {
     id: 2,
     altText: 'Architecture',
 
     img: 'images/device.png',
-    subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
-    caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
-              reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
-              NOC staff - a sure way to increase productivity. With OEM, they're able to pinpoint the root cause of business
-              impacting events such as outages and performance degradations, quicker. <br/><br/>
-
-              Events are automatically correlated to the services they impact so your operations team can prioritize
-              troubleshooting. Additionally, Oasis Analytics proactively finds at-risk applications and devices, then alerts to
-              their deterioration and heightened risk to the business. The synthetic Application Assurance tool constantly
-              checks real world transactions for response time and availability. Systems are confirmed for both availability
-              and reachability. For example, Oasis knows that a service may be unavailable because the NAS is unreachable
-              due to a faulty switch. But the NAS is working properly and the appropriate team is dispatched to repair the
-              switch. <br/><br/>
-              The Oasis Event Manager is viewed through a single dashboard view and organized in a built-in view or by
-              readily customizable templates. This flexibility matches the way your personnel work today so productivity is
-              immediate and resolution times are reduced. The Oasis Dashboards are all convertible to Reports which can be
-              scheduled, mailed or published to any portal. Key information is generated out-of-the-box, such as the Top
-              Devices with Events and the Top Events generated. When maintenance windows are implemented, Oasis knows
-              how to calibrate for Availability and Performance metrics and keeps alerts from being generated to the
-              Helpdesk. Save your staff time and headaches.</p>
+    subtitle: <h4></h4>,
+    caption: <p>The Oasis Platform was designed from the ground up with three key concepts in mind: aggregation, automation. and control. Along with the built-in discovery and monitoring capabilities, this enterprise-ready solution aggregates data from any monitoring service or tool for the management of applications and infrastructure. Providing views of the managed environment in a single interface via alerting, dashboards, and charts, Oasis enables instant identification and analysis of the impact on services in real-time; as well as providing historical data for reporting, trending, and capacity planning. See our full product suite for more information.</p>
   }
 ];
 
