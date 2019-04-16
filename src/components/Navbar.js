@@ -64,7 +64,7 @@ class Navbar extends React.Component {
                     <ul className="navbar-nav navbar-right mega-menu" id="mySidenav">
 
                         <li className="nav-item dropdown">
-                            <a href={"/platform"} className="nav-link">Platform</a>
+                            <a className="nav-link">Platform</a>
                             <button data-toggle="collapse" data-target="#platformMega" aria-controls="platformMega" aria-expanded="false" className="toggle-icon collapsed"></button>
                             <div className="dropdown-content" id="platformMega">
                               <ul className="header">
@@ -195,7 +195,7 @@ class Navbar extends React.Component {
                             </div>
                         </li>
                         <li className="nav-item dropdown">
-                            <a href={"/solutions"} className="nav-link">Solutions</a>
+                            <a className="nav-link">Solutions</a>
                             <button className="navbar-toggle" data-toggle="collapse" data-target="#solutionsMega" aria-controls="solutionsMega" aria-expanded="false" className="toggle-icon collapsed"></button>
                             <div className="dropdown-content" id="solutionsMega">
                               <ul className="header">
@@ -253,7 +253,7 @@ class Navbar extends React.Component {
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <button></button>
+                                    <a color="danger" className="learnmore" href="https://www.hubspot.com/">Learn More</a>
                                   </div>
                                 </div>
                               </div>
@@ -283,7 +283,7 @@ class Navbar extends React.Component {
                                   <div className="right-content">
                                     <h5>Join Oasis Webinar</h5>
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <button></button>
+                                    <a color="danger" className="learnmore" href="https://www.hubspot.com/">Learn More</a>
                                   </div>
                                 </div>
                               </div>
