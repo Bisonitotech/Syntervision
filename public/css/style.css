@@ -1770,6 +1770,10 @@ ul.pattern .color8 {
     font-weight: 700;
     font-size: 30px;
 }
+.modal-header li:hover{
+    color: #0e212b;
+    cursor: pointer;
+}
 .item-content .row > div.col-md-5{
     display: flex;
     align-items: center;
