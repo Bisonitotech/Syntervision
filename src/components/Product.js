@@ -12,7 +12,7 @@ import {
     id: 1,
     altText: 'Oasis Automation',
 
-    img: 'images/automationmodal.jpg',
+    img: 'images/eventmanager-modal.png',
     subtitle: <h4>Simplify Automation with The Oasis Virtual Operator (OVO)</h4>,
     caption: <p>If you’re looking for a world class RPA, you’ve found it with Syntervision. Our enterprise product takes advantage of robotic process automation and artificial intelligence by offering a more cost-effective solution that’ll increase savings without sacrificing quality.
     <p>The Oasis Virtual Operator delivers exceptional automation services for any repeatable process through cognitive computing. The graphical user interface offers a number of common automations right out of the box, but can also be customized! The OVO utilizes multi-path processes to quickly learn and implement the specific scripted language inputted into the system with limitless flexibility and control. And OVO can be purchased as a standalone product or as part of the Oasis Platform.</p>
@@ -70,7 +70,7 @@ import {
     id: 5,
     altText: 'Oasis Event Manager',
 
-    img: 'images/eventmanager-modal.png',
+    img: 'images/automationmodal.jpg',
     subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your

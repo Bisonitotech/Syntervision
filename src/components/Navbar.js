@@ -203,7 +203,7 @@ class Navbar extends React.Component {
                                   <div className="item">
                                     <a href="/integrations">Integrations</a>
                                   </div>
-                                  <div className="item">
+                                  {/*<div className="item">
                                     <a href="#">Digital Transformation</a>
                                   </div>
                                   <a className="item">
@@ -237,7 +237,7 @@ class Navbar extends React.Component {
                                     <div>
                                       <p>Compliance</p>
                                     </div>
-                                  </a>
+                                  </a>*/}
                                 </div>
                                 <div className="bottom-part platform try-oasis">
                                   <img src="images/device.png" />
@@ -311,7 +311,6 @@ class Navbar extends React.Component {
                   <div className="collapse navbar-collapse" id="subbarCollapse">
                     <li className="imp-menu-item"><a href="#contact">Contact</a></li>
                     <li className="imp-menu-item"><a href="/demorequest">Request a Demo</a></li>
-                    <li className="imp-menu-item"><a href="#">Careers</a></li>
                     <li><a href="/privacypolicy">Privacy Policy</a></li>
                     <li><a href="/terms">Terms & Conditions</a></li>
                     <i className="mdi mdi-close" data-toggle="collapse" data-target="#subbarCollapse" aria-controls="subbarCollapse" aria-expanded="false" aria-label="Toggle navigation"></i>

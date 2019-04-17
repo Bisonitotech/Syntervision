@@ -73,7 +73,7 @@ class Platform extends React.Component {
                     <div className="col-lg-4 margin-t-20">
                         <div className="services-box text-center hover-effect">
                             <i className="pe-7s-plugin text-custom"></i>
-                            <h4 className="padding-t-15">Trap Adaptor</h4>
+                            <h4 className="padding-t-15">Trap Adapter</h4>
                             <p className="padding-t-15 text-muted">The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. </p>
                         </div>
                     </div>
