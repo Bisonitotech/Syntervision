@@ -1782,7 +1782,7 @@ ul.pattern .color8 {
 
 .item-content .row > div img{
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
 }
 @media(min-width: 769px){
   .mobile-products .modal-header{
