@@ -258,7 +258,7 @@ class Product extends React.Component {
           activeIndex={activeIndex}
           next={this.next}
           previous={this.previous}
-          interval={this.props.interval?this.props.interval:null}
+          interval={null}
         >
           {/* <CarouselIndicators items={this.state.items} activeIndex={activeIndex} onClickHandler={this.goToIndex} /> */}
           {slides}

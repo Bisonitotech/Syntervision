@@ -330,7 +330,7 @@ class Navbar extends React.Component {
             </div>
             {this.state.modalShow && <div className="product-modal-wrap">
               <div className="product-modal">
-                <Product contentName={this.state.modalContent} showProducts={this.showProducts} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal} interval={5000}/>
+                <Product contentName={this.state.modalContent} showProducts={this.showProducts} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal}/>
               </div>
             </div>}
         </nav>
