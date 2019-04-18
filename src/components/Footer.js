@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { CookieBanner } from '@palmabit/react-cookie-law';
 class Footer extends React.Component {
   constructor(props) {
     super(props);
@@ -20,6 +20,40 @@ class Footer extends React.Component {
   render() {
   	return (
          <footer className="footer">
+            <CookieBanner
+               message="This site or third-party tools used by this make use of cookies necessary for the operation and useful for the purposes outlined in the cookie policy. To learn more or opt out, see the cookie policy. By accepting, you consent to the use of cookies."
+               onAccept = {() => {}}
+               onAcceptPreferences = {() => {}}
+               onAcceptStatistics = {() => {}}
+               onAcceptMarketing = {() => {}}
+               styles = {{
+                dialog: {
+                  backgroundColor: 'rgba(0,0,0,0.3)',
+                  width: '100vw',
+                  height: '100vh',
+                  position: 'fixed',
+                  top: '0',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  left: '0',
+                  zIndex: '1000000',
+                },
+                container: {
+                  position: 'absolute',
+                  width: '60%',
+                  minWidth: '300px',
+                  margin: '0 auto',
+                  background: 'white',
+                  padding: '20px',
+                },
+                policy: {
+                  cursor: 'pointer',
+                  textDecoration: 'underline!important',
+                  fontSize: '10px'
+                }
+              }}
+             />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 margin-t-20">
