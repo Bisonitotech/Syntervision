@@ -1778,10 +1778,11 @@ ul.pattern .color8 {
     display: flex;
     align-items: center;
 }
-.item-content p{
+.item-content p, .item-content .ptype{
     max-width: 596px;
     color: #8294a5 !important;
     font-size: 12px;
+    line-height: 2em;
 }
 
 .item-content .row > div img{
