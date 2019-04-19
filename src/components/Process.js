@@ -25,13 +25,13 @@ class Process extends React.Component {
                 <div className="col-lg-4 plan-line">
                     <div className="text-center process-box">
                         <i className="pe-7s-share text-custom"></i>
-                        <h4 className="padding-t-15">Integration</h4>
+                        <h4 className="padding-t-15">Integrate</h4>
                     </div>
                 </div>
                 <div className="col-lg-4 plan-line">
                     <div className="text-center process-box">
                         <i className="pe-7s-search text-custom"></i>
-                        <h4 className="padding-t-15">Discovery</h4>
+                        <h4 className="padding-t-15">Discover</h4>
                     </div>
                 </div>
                 <div className="col-lg-4">
