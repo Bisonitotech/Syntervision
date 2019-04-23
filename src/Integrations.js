@@ -16,13 +16,13 @@ class Integrations extends React.Component {
       <Route>
         <Aux>
           <Navbar />
-          <section class="section bg-light">
-            <div class="container">
-              <div class="row vertical-content">
-                <div class="col-lg-6">
-                  <div class="features-box">
+          <section className="section bg-light">
+            <div className="container">
+              <div className="row vertical-content">
+                <div className="col-lg-6">
+                  <div className="features-box">
                     <h3 className="other-p-title">Integrations</h3>
-                    <p class="other-p-content">
+                    <p className="other-p-content">
                       The Oasis Platform was designed from the beginning to consume data and convert it into useful information. That makes it simple and fast to pull data, statistics, and anything structured, unstructured and semi-structured into the platform and synthesize it with any related content. The flow of information travels bidirectionally to populate and receive information from the Oasis custom dashboard and reporting engine, Service Desks, Request Systems, and more complex processing business systems.<br/><br/>
                       The result is useful information that can drive faster development cycles and more accurate analyses and reporting - allowing you to make better business decisions and reach your target market faster.
                       <br/><br/>
@@ -31,16 +31,16 @@ class Integrations extends React.Component {
 
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="integrations-flex">
-                    <img src="images/NewRelic-logo-bug.png" alt="Integrations" class="img-fluid" />
-                    <img src="images/appd-logo-340x0_q100.png" alt="Integrations" class="img-fluid" />
-                    <img src="images/sn-logo-transparent.png" alt="Integrations" class="img-fluid" />
+                <div className="col-lg-6">
+                  <div className="integrations-flex">
+                    <img src="images/NewRelic-logo-bug.png" alt="Integrations" className="img-fluid" />
+                    <img src="images/appd-logo-340x0_q100.png" alt="Integrations" className="img-fluid" />
+                    <img src="images/sn-logo-transparent.png" alt="Integrations" className="img-fluid" />
                   </div>
-                  <div class="integrations-flex">
-                    <img src="images/google-cloud.png" alt="Integrations" class="img-fluid" />
-                    <img src="images/amazon-aws-logo-transparent.png" alt="Integrations" class="img-fluid" />
-                    <img src="images/microsoft-azure-logo.png" alt="Integrations" class="img-fluid" />
+                  <div className="integrations-flex">
+                    <img src="images/google-cloud.png" alt="Integrations" className="img-fluid" />
+                    <img src="images/amazon-aws-logo-transparent.png" alt="Integrations" className="img-fluid" />
+                    <img src="images/microsoft-azure-logo.png" alt="Integrations" className="img-fluid" />
                   </div>
                 </div>
               </div>

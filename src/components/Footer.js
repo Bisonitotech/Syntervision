@@ -61,9 +61,9 @@ class Footer extends React.Component {
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
                                 <li><a href="/demorequest">Contact</a></li>
-                                <li><Link to="JavaScript:Void(0);">Leadership</Link></li>
-                                <li><Link to="JavaScript:Void(0);">Careers</Link></li>
-                                <li><Link to="JavaScript:Void(0);">Contact us</Link></li>
+                                <li><a href="">Leadership</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -71,10 +71,10 @@ class Footer extends React.Component {
                         <h4>Solutions</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="/platform">Oasis Platform</Link></li>
-                                <li><Link to="/security">Security</Link></li>
-                                <li><Link to="/industries">By Industry</Link></li>
-                                <li><Link to="/integrations">Integrations</Link></li>
+                                <li><a href="/platform">Oasis Platform</a></li>
+                                <li><a href="/security">Security</a></li>
+                                <li><a href="/industries">By Industry</a></li>
+                                <li><a href="/integrations">Integrations</a></li>
                             </ul>
                         </div>
                     </div>
@@ -82,8 +82,8 @@ class Footer extends React.Component {
                         <h4>Support</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="/privacypolicy">Privacy Policy</Link></li>
-                                <li><Link to="/terms">Terms & Conditions</Link></li>
+                                <li><a href="/privacypolicy">Privacy Policy</a></li>
+                                <li><a href="/terms">Terms & Conditions</a></li>
                             </ul>
                         </div>
                     </div>
