@@ -40,13 +40,13 @@ class Industries extends React.Component {
                     <br/>
                     <br/>
                     <h3>Healthcare</h3>
-                    <p>The Healthcare industry is experiencing massive digital transformation, shifting its focus to improved customer experiences, security, and AI. Our client’s use cases range from implementing telemedicine programs to digitizing clinical workflows. With numerous high-value opportunities available, Oasis helps healthcare revolutionize their service offerings.</p>
+                    <p>The Healthcare industry is experiencing massive digital transformation, shifting its focus to improved customer experiences, security, and AI. Our client’s use cases range from implementing telemedicine programs to digitizing clinical workflows. With numerous high-value opportunities available, Oasis helps healthcare revolutionize their service offerings.
                     <ul>
                       <li>Access client or clinical data real-time, anywhere</li>
                       <li>Reduce costs and prevent identity theft</li>
                       <li>Increase efficiency and patient satisfaction</li>
                     </ul>
-
+                    </p>
                   </div>
                 </div>
                 <div className="col-lg-6">

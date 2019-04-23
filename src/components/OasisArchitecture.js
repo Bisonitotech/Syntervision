@@ -14,9 +14,10 @@ class OasisArchitecture extends React.Component {
                         <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">The Oasis Platform was designed from the ground up with three key concepts in mind: aggregation, automation. and control. Along with the built-in discovery and monitoring capabilities, this enterprise-ready solution aggregates data from any monitoring service or tool for the management of applications and infrastructure. Providing views of the managed environment in a single interface via alerting, dashboards, and charts, Oasis enables instant identification and analysis of the impact on services in real-time; as well as providing historical data for reporting, trending, and capacity planning.
 
                         See our full product suite for more information.</p>
+                        <img src="images/oasis-platform-arch.png" alt="" className="img-fluid" />
                     </div>
 
-                    <img src="images/oasis-platform-arch.gif" alt="" className="img-fluid" />
+                    
                 </div>
 
                 
