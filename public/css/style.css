@@ -1770,19 +1770,24 @@ ul.pattern .color8 {
     font-weight: 700;
     font-size: 30px;
 }
+.modal-header li:hover{
+    color: #0e212b;
+    cursor: pointer;
+}
 .item-content .row > div.col-md-5{
     display: flex;
     align-items: center;
 }
-.item-content p{
+.item-content p, .item-content .ptype{
     max-width: 596px;
     color: #8294a5 !important;
     font-size: 12px;
+    line-height: 2em;
 }
 
 .item-content .row > div img{
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
 }
 @media(min-width: 769px){
   .mobile-products .modal-header{

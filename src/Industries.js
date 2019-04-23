@@ -15,13 +15,13 @@ class Industries extends React.Component {
       <Route>
         <Aux>
           <Navbar />
-          <section class="section bg-light">
-            <div class="container">
-              <div class="row vertical-content">
-                <div class="col-lg-6">
-                  <div class="features-box">
+          <section className="section bg-light">
+            <div className="container">
+              <div className="row vertical-content">
+                <div className="col-lg-6">
+                  <div className="features-box">
                     <h3 className="other-p-title">Industries</h3>
-                    <p class="other-p-content">
+                    <p className="other-p-content">
                       Syntervision provides integrated IT solutions with the Oasis platform. See how Oasis works for your industry, integrates with your existing systems, and gets you started on your digital transformation journey.<br/><br/>
                       Each industry faces unique business challenges. Our job is to understand what those challenges are and tailor solutions that help automate business processes and make your data work for you. Oasis can help companies in any industry achieve their business goals.
                     </p>
@@ -49,9 +49,9 @@ class Industries extends React.Component {
                     </p>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="features-img features-right text-right">
-                    <img src="images/healthcare-modal.jpg" alt="Industries" class="img-fluid" />
+                <div className="col-lg-6">
+                  <div className="features-img features-right text-right">
+                    <img src="images/healthcare-modal.jpg" alt="Industries" className="img-fluid" />
                   </div>
                 </div>
               </div>

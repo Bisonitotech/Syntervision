@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@palmabit/react-cookie-law": "^0.2.4",
     "react": "^16.8.5",
     "react-build": "^1.0.8",
     "react-dom": "^16.8.5",

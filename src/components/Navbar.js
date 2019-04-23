@@ -178,8 +178,9 @@ class Navbar extends React.Component {
                                   <img src="images/device.png" />
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
-                                    <h6>We offer a trial version that includes all advanced features - free, for 30 days. Contact us today to request a license!</h6>
-                                    <a color="danger" className="learnmore" href="/demorequest">Learn More</a>
+
+                                    <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
+                                    <a color="danger" className="learnmore" onClick={()=> window.location.href = '/demorequest'}>Learn More</a>
                                   </div>
                                 </div>
                               </div>
@@ -320,7 +321,7 @@ class Navbar extends React.Component {
             </div>
             {this.state.modalShow && <div className="product-modal-wrap">
               <div className="product-modal">
-                <Product contentName={this.state.modalContent} showProducts={this.showProducts} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal} interval={5000}/>
+                <Product contentName={this.state.modalContent} showProducts={this.showProducts} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal}/>
               </div>
             </div>}
         </nav>

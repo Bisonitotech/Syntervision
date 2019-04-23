@@ -14,7 +14,7 @@ import {
 
     img: 'images/eventmanager-modal.png',
     subtitle: <h4>Simplify Automation with The Oasis Virtual Operator (OVO)</h4>,
-    caption: <p>If you’re looking for a world class RPA, you’ve found it with Syntervision. Our enterprise product takes advantage of robotic process automation and artificial intelligence by offering a more cost-effective solution that’ll increase savings without sacrificing quality.
+    caption: <div className="ptype">If you’re looking for a world class RPA, you’ve found it with Syntervision. Our enterprise product takes advantage of robotic process automation and artificial intelligence by offering a more cost-effective solution that’ll increase savings without sacrificing quality.
     <p>The Oasis Virtual Operator delivers exceptional automation services for any repeatable process through cognitive computing. The graphical user interface offers a number of common automations right out of the box, but can also be customized! The OVO utilizes multi-path processes to quickly learn and implement the specific scripted language inputted into the system with limitless flexibility and control. And OVO can be purchased as a standalone product or as part of the Oasis Platform.</p>
     <h5>Enter the World of Automation to Experience Simplicity</h5>
     <p>Oasis Automation is a natural step in the lifecycle of a maturing Enterprise Service Management or IT Operations strategy in any business.</p>
@@ -26,7 +26,7 @@ import {
                 <li>Save time and money in incident resolution staff hours and lost business</li>
                 <li>Ensure ultimate customer satisfaction</li>
               </ul>
-              </p>
+              </div>
   },
   {
     id: 2,
@@ -43,14 +43,14 @@ import {
     altText: 'Application and Infrastructure Monitoring',
 
     img: 'images/appmonitoringmodal.jpg',
-    subtitle: <p>Oasis, based on how it is configured, can monitor virtually anything and everything. Since the Oasis platform was designed to do end-to-end service management without the complexity of multiple tools, it is not dependent on other products to complete the solution’s monitoring capabilities. It is important to note, however, that there are numerous products that work well in tandem with Oasis; that flexibility allows us to integrate with your existing ITOM tools, home grown monitoring, element managers and performance management solutions.<br/><br/>
+    subtitle: <div className="ptype">Oasis, based on how it is configured, can monitor virtually anything and everything. Since the Oasis platform was designed to do end-to-end service management without the complexity of multiple tools, it is not dependent on other products to complete the solution’s monitoring capabilities. It is important to note, however, that there are numerous products that work well in tandem with Oasis; that flexibility allows us to integrate with your existing ITOM tools, home grown monitoring, element managers and performance management solutions.<br/><br/>
     <ul>
       <li>Measure end-user-experience and application performance via synthetic checks</li>
       <li>Network analysis of traffic to monitor production traffic</li>
       <li>Application Performance Monitoring</li>
       <li>Core Monitoring (Availability, SLA, Event, Asset, Incident, Service Management, and more)</li>
     </ul>
-  </p>
+  </div>
   },
   {
     id: 4,
@@ -58,13 +58,13 @@ import {
 
     img: 'images/analyticsmodal.jpg',
     subtitle: <h4>Oasis delivers business impacting information straight out of your raw data.</h4>,
-    caption: <p>Countless feeds from your devices, applications, logs and events are consumed by the Oasis ingestion engine, then normalized to generate context. In turn, that information can be converted into actionable intelligence by the Oasis analytics engine.<br/><br/>
+    caption: <div className="ptype">Countless feeds from your devices, applications, logs and events are consumed by the Oasis ingestion engine, then normalized to generate context. In turn, that information can be converted into actionable intelligence by the Oasis analytics engine.<br/><br/>
               <ul>
                 <li>Find anomalies based on classifying disparate data sources</li>
                 <li>Easily forecast capacity challenges</li>
                 <li>Watch for deviations in time-series data so you can focus on the events that most impact your business</li>
               </ul>
-            </p>
+            </div>
   },
   {
     id: 5,
@@ -98,7 +98,7 @@ import {
 
     img: 'images/trapadaptormodal.jpg',
     subtitle: <h4>The Oasis Trap Adapter SNMP</h4>,
-    caption: <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
+    caption: <div className="ptype">The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
                 <h4>At-A-Glance:</h4>
                 <ul>
                   <li>SNMP Trap Listener</li>
@@ -111,7 +111,7 @@ import {
                   <li>Fully configurable with Oasis API and Oasis Manager</li>
                   <li>Integrates seamlessly with the Oasis Platform, Oasis CMDB, Oasis Automation, Oasis Reporting and Dashboards, and Service Desks</li>
                 </ul>
-            </p>
+            </div>
   },
   {
     id: 7,
@@ -119,7 +119,7 @@ import {
 
     img: 'images/apisuitemodal.jpg',
     subtitle: <h4>The Oasis API is a full feature REST API for CMDB/Assets, Performance, Incidents and Automation.</h4>,
-    caption: <p>We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.
+    caption: <div className="ptype">We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.
               <h4>Features:</h4>
                 <ul>
                   <li>Easy to learn, simple to use</li>
@@ -136,7 +136,7 @@ import {
                   <li>Integrate any new system with Oasis in less than 5 minutes</li>
                 </ul>
               <p>Request a copy of the Oasis API Document today.</p>
-              </p>
+              </div>
   },
   {
     id: 8,
@@ -247,7 +247,7 @@ class Product extends React.Component {
           activeIndex={activeIndex}
           next={this.next}
           previous={this.previous}
-          interval={this.props.interval?this.props.interval:null}
+          interval={null}
         >
           {/* <CarouselIndicators items={this.state.items} activeIndex={activeIndex} onClickHandler={this.goToIndex} /> */}
           {slides}

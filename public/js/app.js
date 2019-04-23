@@ -12,9 +12,11 @@
     function initNavbar() {
   		$('.navbar-nav a').bind('click', function(event) {
             var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: ($($anchor.attr('href')).offset().top - 92)
-            }, 1500, 'easeInOutExpo');
+            console.log($(this));
+            if($anchor.attr('href'))
+              $('html, body').stop().animate({
+                  scrollTop: ($($anchor.attr('href')).offset().top - 92)
+              }, 1500, 'easeInOutExpo');
             event.preventDefault();
         });
     }
@@ -25,12 +27,12 @@
             topSpacing: 0
         });
     }
-    
+
     //Scrollspy
 	function initScrollspy() {
-		$("#navbarCollapse").scrollspy({
-		    offset:20
-		});
+		// $("#navbarCollapse").scrollspy({
+		//     offset:20
+		// });
 	}
 
 	// Magnific Popup
@@ -89,7 +91,7 @@
     }
 
     $(document).ready(function(){
-        init(); 
+        init();
     });
 
     // init();
