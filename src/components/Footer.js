@@ -21,7 +21,7 @@ class Footer extends React.Component {
   	return (
          <footer className="footer">
             <CookieBanner
-               message="This site or third-party tools used by this make use of cookies necessary for the operation and useful for the purposes outlined in the cookie policy. To learn more or opt out, see the cookie policy. By accepting, you consent to the use of cookies."
+               message="This site and third-party tools used by this site, make use of cookies to improve your website experience. To learn more or opt out, see the cookie policy. By accepting, you consent to the use of cookies."
                onAccept = {() => {}}
                onAcceptPreferences = {() => {}}
                onAcceptStatistics = {() => {}}
