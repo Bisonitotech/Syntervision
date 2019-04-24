@@ -54,7 +54,7 @@ class WhoWeAre extends React.Component {
                         <br />
                         <h1 className="section-title text-center">Who We Are</h1>
                         <div className="section-title-border margin-t-20"></div>
-                        <h3 className="section-subtitle text-muted text-justify padding-t-30 font-secondary text-center">Our mission is to automate and scale the ability of enterprise IT Operations meet the demands of digital transformation.</h3>
+                        <h3 className="section-subtitle text-muted text-justify padding-t-30 font-secondary text-center">Our mission is to automate and scale the ability of enterprise IT Operations to meet the demands of digital transformation.</h3><br/>
                         <p className="text-muted text-center">Syntervision provides Oasis, an end-to-end monitoring and data management platform as a holistic and foundational solution for accelerating digital transformation. We execute on this strategy in 3 steps:</p>
                     </div>
                 </div>

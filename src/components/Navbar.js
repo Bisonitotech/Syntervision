@@ -79,7 +79,7 @@ class Navbar extends React.Component {
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Automation RPA</h4>
-                                      <p>Oasis Event Manager reduces the noise in the system, reducing the number of daily events from thousands down to a</p>
+                                      <p>If you’re looking for a world class RPA, you’ve found it with Syntervision.</p>
                                     </div>
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(1)}>
@@ -90,7 +90,7 @@ class Navbar extends React.Component {
 
                                       <h4 className="title">Discovery Engine</h4>
 
-                                      <p>If you’re looking for a world class RPA, you’ve found it with Syntervision.</p>
+                                      <p>Asset and Network Discovery is quick, simple and comprehensive with Oasis.</p>
                                     </div>
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(2)}>
@@ -101,7 +101,7 @@ class Navbar extends React.Component {
 
                                       <h4 className="title">Application & Infrastructure Monitoring</h4>
 
-                                      <p>Asset Discovery is simple and comprehensive with Oasis.</p>
+                                      <p>Oasis can monitor virtually anything and everything. The Oasis platform is designed to do end-to-end service management without unnecessary complexity.</p>
                                     </div>
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(3)}>
@@ -110,7 +110,7 @@ class Navbar extends React.Component {
                                     </div>
                                     <div>
                                       <h4 className="title">Advanced Analytics</h4>
-                                      <p>Delivers business impacting information from your devices, applications, logs and events are consumed by then normalised to generate context.</p>
+                                      <p>Advanced Analytics and Machine Learning can be used to collect and understand how your data impacts IT Operations, leading to better business decisions.</p>
                                     </div>
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(4)}>
@@ -119,7 +119,7 @@ class Navbar extends React.Component {
                                     </div>
                                     <div>
                                       <h4 className="title">Oasis Event Manager</h4>
-                                      <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
+                                      <p>The Oasis Event Manager handles event notifications for any data that is in Oasis, natively or via the Rest API.</p>
                                     </div>
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(5)}>
@@ -128,7 +128,7 @@ class Navbar extends React.Component {
                                     </div>
                                     <div>
 
-                                      <h4 className="title">Trap Adaptor SMNP</h4>
+                                      <h4 className="title">Trap Adapter SNMP</h4>
 
                                       <p>The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform.</p>
                                     </div>
@@ -141,7 +141,7 @@ class Navbar extends React.Component {
 
                                       <h4 className="title">API Suite</h4>
 
-                                      <p>Unlock productivity and transform IT across your enterprise with a unified platform.</p>
+                                      <p>Open up your enterprise's application landscape and maximize productivity with the simple and flexible Oasis API Suite.</p>
                                     </div>
                                   </a>
                                   <a className="item" onClick={()=>this.showProducts(7)}>
@@ -166,20 +166,11 @@ class Navbar extends React.Component {
                                   </a>
                                   <a className="item" onClick={()=>this.showPlatformOverview(0)}>
                                     <div>
-                                      <i className="pe-7s-global text-custom"></i>
-                                    </div>
-                                    <div>
-                                      <h4 className="title">Core Features</h4>
-                                      <p>Discover all of your enterprise network and device data - simply and quickly.</p>
-                                    </div>
-                                  </a>
-                                  <a className="item" onClick={()=>this.showPlatformOverview(1)}>
-                                    <div>
                                       <i className="pe-7s-culture text-custom"></i>
                                     </div>
                                     <div>
                                       <h4 className="title">Architecture</h4>
-                                      <p>View how Oasis performs digital transformation.</p>
+                                      <p>Understand The Oasis Platform architecture and key components.</p>
                                     </div>
                                   </a>
                                 </div>}
@@ -187,8 +178,9 @@ class Navbar extends React.Component {
                                   <img src="images/device.png" />
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
+
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <a color="danger" className="learnmore" onClick={()=> window.location.href = 'https://www.hubspot.com'}>Learn More</a>
+                                    <a color="danger" className="learnmore" onClick={()=> window.location.href = '/demorequest'}>Learn More</a>
                                   </div>
                                 </div>
                               </div>
@@ -212,7 +204,7 @@ class Navbar extends React.Component {
                                   <div className="item">
                                     <a href="/integrations">Integrations</a>
                                   </div>
-                                  <div className="item">
+                                  {/*<div className="item">
                                     <a href="#">Digital Transformation</a>
                                   </div>
                                   <a className="item">
@@ -246,14 +238,14 @@ class Navbar extends React.Component {
                                     <div>
                                       <p>Compliance</p>
                                     </div>
-                                  </a>
+                                  </a>*/}
                                 </div>
                                 <div className="bottom-part platform try-oasis">
                                   <img src="images/device.png" />
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
-                                    <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>
-                                    <a color="danger" className="learnmore" href="https://www.hubspot.com/">Learn More</a>
+                                    <h6>We offer a trial version that includes all advanced features - free, for 30 days. Contact us today to request a license!</h6>
+                                    <a color="danger" className="learnmore" href="/demorequest">Learn More</a>
                                   </div>
                                 </div>
                               </div>
@@ -320,7 +312,6 @@ class Navbar extends React.Component {
                   <div className="collapse navbar-collapse" id="subbarCollapse">
                     <li className="imp-menu-item"><a href="#contact">Contact</a></li>
                     <li className="imp-menu-item"><a href="/demorequest">Request a Demo</a></li>
-                    <li className="imp-menu-item"><a href="#">Careers</a></li>
                     <li><a href="/privacypolicy">Privacy Policy</a></li>
                     <li><a href="/terms">Terms & Conditions</a></li>
                     <i className="mdi mdi-close" data-toggle="collapse" data-target="#subbarCollapse" aria-controls="subbarCollapse" aria-expanded="false" aria-label="Toggle navigation"></i>
