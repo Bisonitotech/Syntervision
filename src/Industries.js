@@ -28,7 +28,7 @@ class Industries extends React.Component {
                     <br/>
                     <br/>
                     <h3>Life Sciences</h3>
-                    <p>
+                    <div className="ptype">
                       With innovation and technology at the forefront of the life sciences industry, we partner with our clients to digitize their R&D, advance drug research, improve drug time to market and improve IT operations. The Oasis platform has enabled the automation of thousands of requests resulting in delighted employees and reduced costs across multiple departments.
 
                       <ul>
@@ -36,17 +36,17 @@ class Industries extends React.Component {
                         <li>Provide visibility into business outcomes for drug development</li>
                         <li>Improve end user experience</li>
                       </ul>
-                    </p>
+                    </div>
                     <br/>
                     <br/>
                     <h3>Healthcare</h3>
-                    <p>The Healthcare industry is experiencing massive digital transformation, shifting its focus to improved customer experiences, security, and AI. Our client’s use cases range from implementing telemedicine programs to digitizing clinical workflows. With numerous high-value opportunities available, Oasis helps healthcare revolutionize their service offerings.
+                    <div className="ptype">The Healthcare industry is experiencing massive digital transformation, shifting its focus to improved customer experiences, security, and AI. Our client’s use cases range from implementing telemedicine programs to digitizing clinical workflows. With numerous high-value opportunities available, Oasis helps healthcare revolutionize their service offerings.
                     <ul>
                       <li>Access client or clinical data real-time, anywhere</li>
                       <li>Reduce costs and prevent identity theft</li>
                       <li>Increase efficiency and patient satisfaction</li>
                     </ul>
-                    </p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-lg-6">

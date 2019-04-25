@@ -76,17 +76,17 @@ class PrivacyPolicy extends React.Component {
                         </div>
                         <div id="content2" className="content-title">
                           <h4>2. HOW DO WE USE YOUR INFORMATION?</h4>
-                          <p><i><b>In Short: </b>We process your information for purposes based on legitimate business interests, the fulfillment of our contract withyou, compliance with our legal obligations, and/or your consent.</i>
+                          <div className="ptype"><i><b>In Short: </b>We process your information for purposes based on legitimate business interests, the fulfillment of our contract withyou, compliance with our legal obligations, and/or your consent.</i>
                             <br/><br/>We use personal information collected via our Sites for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests ("Business Purposes"), in order to enter into or perform a contract with you ("Contractual"), with your consent ("Consent"), and/or for compliance with our legal obligations("Legal Reasons"). We indicate the specific processing grounds we rely on next to each purpose listed below. <br/><br/>We use the information we collect or receive:<br/><br/>
                             <ul>
                               <li><b>To facilitate account creation and logon process</b> with your Consent. If you choose to link your account with us to athird party account *(such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process. See the section below headed "<a>HOW DO WE HANDLEYOUR SOCIAL LOGINS</a>" for further information.</li>
                               <li><b>To send administrative information to you</b> for Business Purposes and/or Legal Reasons. We may use your personal information to send you product, service and new feature information and/or information about changes to our terms, conditions, and policies. </li>
                             </ul>
-                          </p>
+                          </div>
                         </div>
                         <div id="content3" className="content-title">
                           <h4>3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?</h4>
-                          <p><i><b>In Short: </b>We  only  share  information  with  your  consent,  to  comply  with  laws,  to  protect  your  rights,  or  to  fulfill  business obligations.</i>
+                          <div className="ptype"><i><b>In Short: </b>We  only  share  information  with  your  consent,  to  comply  with  laws,  to  protect  your  rights,  or  to  fulfill  business obligations.</i>
                             <br/><br/>We only share and disclose your information in the following situations:
                             <br/><br/>
                             <ul>
@@ -95,7 +95,7 @@ class PrivacyPolicy extends React.Component {
                               <li><b>Business Transfers.</b>We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
                               <li><b>With your Consent.</b>We may disclose your personal information for any other purpose with your consent.</li>
                             </ul>
-                          </p>
+                          </div>
                         </div>
                         <div id="content4" className="content-title">
                           <h4>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h4>
@@ -143,7 +143,7 @@ accordance with this privacy policy and applicable law.
                             If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, youalso  have  the  right  to  complain  to  your  local  data  protection  supervisory  authority.  You  can  find  their  contact  details here: <a href="http://ec.europa.eu/justice/data­protection/bodies/authorities/index_en.htm">http://ec.europa.eu/justice/data­protection/bodies/authorities/index_en.htm</a>
                           </p>
                           <h5>Account Information</h5>
-                          <p>
+                          <div className="ptype">
                             If you would at any time like to review or change the information in your account or terminate your account, you can:
                             <ul>
                               <li>Log into your account settings and update your user account.</li>
@@ -153,7 +153,7 @@ accordance with this privacy policy and applicable law.
                             Upon  your  request  to  terminate  your  account,  we  will  deactivate  or  delete  your  account  and  information  from  our  active databases. However, some information may be retained in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with legal requirements.
                             <br/><br/>
                             <a className="greya">
-                              Cookies and similar technologies: 
+                              Cookies and similar technologies:
                             </a>
                             Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could  affect  certain  features  or  services  of  our  Sites.  To  opt­out  of  interest ­based  advertising  by  advertisers  on  our  Sites visit <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a> .
                             <br/><br/>
@@ -166,7 +166,7 @@ accordance with this privacy policy and applicable law.
                             <ul>
                               <li>Contact us using the contact information provided. </li>
                             </ul>
-                          </p>
+                          </div>
                         </div>
 
                         <div id="content10" className="content-title">
