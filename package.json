@@ -1,30 +1,39 @@
 {
-  "name": "dorsin_react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@palmabit/react-cookie-law": "^0.2.4",
-    "react": "^16.8.5",
-    "react-build": "^1.0.8",
-    "react-dom": "^16.8.5",
-    "react-particles-js": "^2.4.2",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8",
-    "reactstrap": "^7.1.0"
-  },
+  "name": "nextjs-dimension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.10",
+    "@fortawesome/fontawesome-free-regular": "^5.0.10",
+    "@fortawesome/react-fontawesome": "0.0.18",
+    "@palmabit/react-cookie-law": "^0.2.4",
+    "autoprefixer": "^9.1.5",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "glob": "^7.1.3",
+    "next": "^7.0.0",
+    "node-sass": "^4.9.3",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^0.5.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "reactstrap": "^8.0.0",
+    "sass-loader": "^7.1.0"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "file-loader": "^3.0.1",
+    "url-loader": "^1.1.2"
+  }
 }
