@@ -7,7 +7,7 @@ import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
 import FooterLinks from '../components/FooterLinks';
 import Aux from './hoc/Aux_';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import Includes from '../components/Includes';
 
 class Solutions extends React.Component {
@@ -87,7 +87,7 @@ class Solutions extends React.Component {
                             <li className="">Provide visibility into business outcomes for drug development</li>
                             <li className="">Improve end user experience</li>
                         </ul>
-                        <Link to={"/platform"} className="btn btn-custom margin-t-30 waves-effect waves-light">Learn More <i className="mdi mdi-arrow-right"></i></Link>
+                        <Link href={"/platform"} ><a className="btn btn-custom margin-t-30 waves-effect waves-light">Learn More <i className="mdi mdi-arrow-right"></i></a></Link>
                     </div>
                 </div>
                 <div className="col-lg-7">
@@ -115,7 +115,7 @@ class Solutions extends React.Component {
                             <li className="">Reduce costs and prevent identity theft </li>
                             <li className="">Increase efficiency and patient satisfaction </li>
                         </ul>
-                        <Link to={"/platform"} className="btn btn-custom margin-t-30 waves-effect waves-light">Learn More <i className="mdi mdi-arrow-right"></i></Link>
+                        <Link href={"/platform"}><a className="btn btn-custom margin-t-30 waves-effect waves-light">Learn More <i className="mdi mdi-arrow-right"></i></a></Link>
                     </div>
                 </div>
 

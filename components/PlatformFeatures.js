@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'next/link';
+import Link from 'next/link';
 
 class PlatformFeatures extends React.Component {
   render() {

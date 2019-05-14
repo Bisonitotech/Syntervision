@@ -1,6 +1,6 @@
 import React from 'react';
 import Aux from './hoc/Aux_';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import Switcher from '../components/Switcher';
 import Includes from '../components/Includes';
 
@@ -23,7 +23,7 @@ class SignUp extends React.Component {
                                 <div className="card account-card">
                                     <div className="card-body">
                                         <div className="text-center mt-3">
-                                            <h3 className="font-weight-bold"> <Link to="home-one" className="text-dark text-uppercase account-pages-logo">Dorsin</Link></h3>
+                                            <h3 className="font-weight-bold"> <Link href="home-one"><a  className="text-dark text-uppercase account-pages-logo">Dorsin</a></Link></h3>
                                             <p className="text-muted">Sign up for a new Account</p>
                                         </div>
                                         <div className="p-3">
@@ -54,7 +54,7 @@ class SignUp extends React.Component {
 
                                                 <div className="mt-4 mb-0 text-center">
                                                     <p className="mb-0">Don't have an account ?
-                                                     <Link to="login" className="text-danger">Sign in</Link></p>
+                                                     <Link href="login" ><a className="text-danger">Sign in</a></Link></p>
                                                 </div>
                                             </form>
                                         </div>

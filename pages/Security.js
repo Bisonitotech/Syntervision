@@ -6,7 +6,7 @@ import Contact from '../components/Contact';
 import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
 import FooterLinks from '../components/FooterLinks';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import Aux from './hoc/Aux_';
 import Includes from '../components/Includes';
 

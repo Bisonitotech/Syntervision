@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 import FooterLinks from '../components/FooterLinks';
 import Includes from '../components/Includes';
 import Aux from './hoc/Aux_';
-import { Link } from 'next/link';
+import Link from 'next/link';
 
 class HomeFive extends React.Component {
   render() {

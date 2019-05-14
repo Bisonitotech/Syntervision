@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import Product from './Product';
 import { Button } from 'reactstrap';
 
@@ -17,10 +17,10 @@ class Navbar extends React.Component {
     this.showProducts = this.showProducts.bind(this)
   }
   showProducts(index){
-    if(window.innerWidth<=768){
-
-      localStorage.setItem("index", index);
-      window.location.href='/Products'
+    console.log(window.screen.width)
+    if(window.screen.width<=768){
+      // localStorage.setItem("index", index);
+      window.location.href='/Products?index='+index;
 
     }
     this.setState({
@@ -30,10 +30,10 @@ class Navbar extends React.Component {
     })
   }
   showPlatformOverview(index){
-    if(window.innerWidth<=768){
+    if(window.screen.width<=768){
 
-      localStorage.setItem("index", index);
-      window.location.href='/PlatformOverview'
+      // localStorage.setItem("index", index);
+      window.location.href='/PlatformOverview?index='+index;
 
     }
     this.setState({

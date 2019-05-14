@@ -8,7 +8,7 @@ import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
 import FooterLinks from '../components/FooterLinks';
 import Aux from './hoc/Aux_';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import OasisArchitecture from '../components/OasisArchitecture';
 import Includes from '../components/Includes';
 

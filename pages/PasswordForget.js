@@ -1,6 +1,6 @@
 import React from 'react';
 import Aux from './hoc/Aux_';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import Switcher from '../components/Switcher';
 import Includes from '../components/Includes';
 
@@ -12,7 +12,7 @@ class PasswordForget extends React.Component {
          <Includes />
 
         <div className="account-home-btn d-none d-sm-block">
-            <Link to="home-one" className="text-white"><i className="mdi mdi-home h1"></i></Link>
+            <Link href="home-one" className="text-white"><a><i className="mdi mdi-home h1"></i></a></Link>
         </div>
 
         <section className="bg-account-pages height-100vh">
@@ -24,7 +24,8 @@ class PasswordForget extends React.Component {
                                 <div className="card account-card">
                                     <div className="card-body">
                                         <div className="text-center mt-3">
-                                            <h3 className="font-weight-bold">  <Link to="home-one" className="text-dark text-uppercase account-pages-logo">Dorsin</Link></h3>
+                                            <h3 className="font-weight-bold">
+                                            <Link href="home-one"><a className="text-dark text-uppercase account-pages-logo">Dorsin</a></Link></h3>
                                             <p className="text-muted">Reset Password</p>
                                         </div>
                                         <div className="p-3">

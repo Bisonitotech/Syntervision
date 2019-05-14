@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'next/link';
 import { CookieBanner } from '@palmabit/react-cookie-law';
 class Footer extends React.Component {
   constructor(props) {

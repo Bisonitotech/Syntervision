@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'next/link';
+import Link from 'next/link';
 
 class Switcher extends React.Component {
   render() {
@@ -9,29 +9,29 @@ class Switcher extends React.Component {
                 <h3>Select your color</h3>
                 <ul className="pattern">
                     <li>
-                    <Link to="JavaScript:Void(0);" className="color1" ></Link>
+                    <Link href="JavaScript:Void(0);"  ><a className="color1"></a></Link>
                     </li>
                     <li>
-                    <Link to="JavaScript:Void(0);"  className="color2"></Link>
+                    <Link href="JavaScript:Void(0);"  ><a className="color2"></a></Link>
                     </li>
                     <li>
-                       <Link to="JavaScript:Void(0);" className="color3"></Link>
+                       <Link href="JavaScript:Void(0);" ><a className="color3"></a></Link>
                     </li>
                     <li>
-                       <Link to="JavaScript:Void(0);" className="color4"></Link>
+                       <Link href="JavaScript:Void(0);" ><a className="color4"></a></Link>
                     </li>
                     <li>
-                        <Link to="JavaScript:Void(0);" className="color5"></Link>
+                        <Link href="JavaScript:Void(0);" ><a className="color5"></a></Link>
                     </li>
                     <li>
-                       <Link to="JavaScript:Void(0);"  className="color6"></Link>
-                    </li> 
-                    <li>
-                       <Link to="JavaScript:Void(0);" className="color7"></Link>
+                       <Link href="JavaScript:Void(0);"  ><a className="color6"></a></Link>
                     </li>
                     <li>
-                       <Link to="JavaScript:Void(0);"  className="color8"></Link>
-                    </li>                    
+                       <Link href="JavaScript:Void(0);" ><a className="color7"></a></Link>
+                    </li>
+                    <li>
+                       <Link href="JavaScript:Void(0);"  ><a className="color8"></a></Link>
+                    </li>
                 </ul>
             </div>
             <div className="bottom">

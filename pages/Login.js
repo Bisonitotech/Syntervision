@@ -1,6 +1,6 @@
 import React from 'react';
 import Aux from './hoc/Aux_';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import Switcher from '../components/Switcher';
 import Includes from '../components/Includes';
 
@@ -11,7 +11,7 @@ class Login extends React.Component {
      <Aux>
        <Includes />
          <div className="account-home-btn d-none d-sm-block">
-             <Link to="home-one" className="text-white"><i className="mdi mdi-home h1"></i></Link>
+             <Link href="home-one" ><a className="text-white"><i className="mdi mdi-home h1"></i></a></Link>
          </div>
 
          <section className="bg-account-pages height-100vh">
@@ -23,7 +23,7 @@ class Login extends React.Component {
                                 <div className="card account-card">
                                     <div className="card-body">
                                         <div className="text-center mt-3">
-                                            <h3 className="font-weight-bold"><Link to="home-one"  className="text-dark text-uppercase account-pages-logo">Dorsin</Link></h3>
+                                            <h3 className="font-weight-bold"><Link href="home-one"  ><a className="text-dark text-uppercase account-pages-logo">Dorsin</a></Link></h3>
                                             <p className="text-muted">Sign in to continue to Dorsin.</p>
                                         </div>
                                         <div className="p-3">
@@ -48,7 +48,7 @@ class Login extends React.Component {
                                                 </div>
 
                                                 <div className="mt-4 mb-0 text-center">
-                                                <Link to="password-forget"  className="text-dark"><i className="mdi mdi-lock"></i> Forgot your password?</Link>
+                                                <Link href="password-forget" ><a  className="text-dark"><i className="mdi mdi-lock"></i> Forgot your password?</a></Link>
                                                 </div>
                                             </form>
                                         </div>

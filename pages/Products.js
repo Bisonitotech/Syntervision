@@ -6,37 +6,25 @@ import Contact from '../components/Contact';
 import SocialMedia from '../components/SocialMedia';
 import Footer from '../components/Footer';
 import FooterLinks from '../components/FooterLinks';
-import { Link } from 'next/link';
+import Link from 'next/link';
 import Aux from './hoc/Aux_';
 import Includes from '../components/Includes';
 
-class Products extends React.Component {
-closeModal(){
-  this.setState({
-    index: 0,
-    modalShow: false,
-    modalContent: ''
-  })
-}
-  render() {
-  	return (
-        <Aux>
-          <Includes />
-          <Navbar />
-          <div className="mobile-products">
-            <Product contentName={'product'} currentIndex={parseInt(localStorage.getItem('index'))>0?parseInt(localStorage.getItem('index')):0} type={'mobile'} interval={null}/>
-          </div>
-          <Demo />
+export default ({ url: { query: { index } } }) => (
+  <Aux>
+    <Includes />
+    <Navbar />
+    <div className="mobile-products">
+      <Product contentName={'product'} currentIndex={parseInt(index)>0?parseInt(index):0} type={'mobile'} interval={null}/>
+    </div>
+    <Demo />
 
-          <Contact />
+    <Contact />
 
-          <SocialMedia />
+    <SocialMedia />
 
-          <Footer />
+    <Footer />
 
-          <FooterLinks />
-        </Aux>
-  	);
-  }
-}
-export default Products;
+    <FooterLinks />
+  </Aux>
+)

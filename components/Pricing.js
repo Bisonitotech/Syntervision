@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'next/link';
+import Link from 'next/link';
 
 class Pricing extends React.Component {
   render() {
@@ -27,7 +27,7 @@ class Pricing extends React.Component {
                             <p><b className="text-custom">1</b> Domain</p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
-                        <Link to="JavaScript:Void(0);" className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</Link>
+                        <Link href="JavaScript:Void(0);"><a className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</a></Link>
                     </div>
                 </div>
                 <div className="col-lg-4">
@@ -43,7 +43,7 @@ class Pricing extends React.Component {
                             <p><b className="text-custom">10</b> Domain</p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
-                        <Link to="JavaScript:Void(0);" className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</Link>
+                        <Link href="JavaScript:Void(0);" ><a className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</a></Link>
                     </div>
                 </div>
                 <div className="col-lg-4">
@@ -59,7 +59,7 @@ class Pricing extends React.Component {
                             <p><b className="text-custom">Unlimited</b> Domain</p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
-                        <Link to="JavaScript:Void(0);" className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</Link>
+                        <Link href="JavaScript:Void(0);" ><a className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</a></Link>
                     </div>
                 </div>
             </div>
