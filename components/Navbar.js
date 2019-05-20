@@ -23,11 +23,12 @@ class Navbar extends React.Component {
       window.location.href='/Products?index='+index;
 
     }
-    this.setState({
-      index: index,
-      modalShow: true,
-      modalContent: 'product'
-    })
+    else
+      this.setState({
+        index: index,
+        modalShow: true,
+        modalContent: 'product'
+      })
   }
   showPlatformOverview(index){
     if(window.screen.width<=768){
@@ -36,11 +37,12 @@ class Navbar extends React.Component {
       window.location.href='/PlatformOverview?index='+index;
 
     }
-    this.setState({
-      index: index,
-      modalShow: true,
-      modalContent: 'platformOverview'
-    })
+    else
+      this.setState({
+        index: index,
+        modalShow: true,
+        modalContent: 'platformOverview'
+      })
   }
   closeModal(){
     this.setState({
@@ -175,7 +177,7 @@ class Navbar extends React.Component {
                                   </a>
                                 </div>}
                                 <div className="bottom-part platform try-oasis">
-                                  <img src="static/images/device.png" />
+                                  <img src="/static/images/device.png" />
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
 
@@ -241,7 +243,7 @@ class Navbar extends React.Component {
                                   </a>*/}
                                 </div>
                                 <div className="bottom-part platform try-oasis">
-                                  <img src="static/images/device.png" />
+                                  <img src="/static/images/device.png" />
                                   <div className="right-content">
                                     <h5>Try Oasis Now</h5>
                                     <h6>We offer a trial version that includes all advanced features - free, for 30 days. Contact us today to request a license!</h6>
@@ -271,7 +273,7 @@ class Navbar extends React.Component {
                                   </div> */}
                                 </div>
                                 <div className="bottom-part platform">
-                                  <img src="static/images/device.png" />
+                                  <img src="/static/images/device.png" />
                                   <div className="right-content">
                                     <h5>Join Oasis Webinar</h5>
                                     <h6>Discover all of your enterprise network and device data - simply and quickly. Then view that data in a logical and digestible UI. This is the first step to having massive visibility into all systems and is critical to decision making, security, and capacity management.</h6>

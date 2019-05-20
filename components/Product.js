@@ -12,7 +12,7 @@ import {
     id: 1,
     altText: 'Oasis Automation',
 
-    img: 'static/images/eventmanager-modal.png',
+    img: '/static/images/eventmanager-modal.png',
     subtitle: <h4>Simplify Automation with The Oasis Virtual Operator (OVO)</h4>,
     caption: <div className="ptype">If you’re looking for a world class RPA, you’ve found it with Syntervision. Our enterprise product takes advantage of robotic process automation and artificial intelligence by offering a more cost-effective solution that’ll increase savings without sacrificing quality.
     <p>The Oasis Virtual Operator delivers exceptional automation services for any repeatable process through cognitive computing. The graphical user interface offers a number of common automations right out of the box, but can also be customized! The OVO utilizes multi-path processes to quickly learn and implement the specific scripted language inputted into the system with limitless flexibility and control. And OVO can be purchased as a standalone product or as part of the Oasis Platform.</p>
@@ -32,7 +32,7 @@ import {
     id: 2,
     altText: 'Discovery Engine',
 
-    img: 'static/images/DeviceDiscoveryNetworkView.png',
+    img: '/static/images/DeviceDiscoveryNetworkView.png',
     subtitle: <h4></h4>,
     caption: <p>Today, change to your virtual and physical environments is a function of business, happening fast and in high volumes. Oasis Discovery is designed to keep up with today’s hybrid IT, regardless of the location of the assets and in spite of increasing rates in change volume and change types. Auto-discovery is crucial to your business because it is impossible to stay up to date with this tremendous volume of devices, applications and cloud resources without the help of a powerful tool.<br/><br/>Two of the most important components of an IT Operations Management Platform are discovering all of your logical, physical and virtual assets and automatically maintaining an accurate CMDB. Additionally, the CMDB demands knowing how each element is related to the business; there must always be context and no element or Configuration Item (CI) can be an island unto itself.
     <br/><br/>The Oasis discovery engine is completely agentless, lightning fast, lightweight, and requires minimal credentials and IP addresses to do its work. The output of the Oasis Discovery engine drives the Oasis Analytics, Reporting and Automation Components. All assets and any changes are updated in near real-time.
@@ -42,7 +42,7 @@ import {
     id: 3,
     altText: 'Application and Infrastructure Monitoring',
 
-    img: 'static/images/appmonitoringmodal.jpg',
+    img: '/static/images/appmonitoringmodal.jpg',
     subtitle: <div className="ptype">Oasis, based on how it is configured, can monitor virtually anything and everything. Since the Oasis platform was designed to do end-to-end service management without the complexity of multiple tools, it is not dependent on other products to complete the solution’s monitoring capabilities. It is important to note, however, that there are numerous products that work well in tandem with Oasis; that flexibility allows us to integrate with your existing ITOM tools, home grown monitoring, element managers and performance management solutions.<br/><br/>
     <ul>
       <li>Measure end-user-experience and application performance via synthetic checks</li>
@@ -56,7 +56,7 @@ import {
     id: 4,
     altText: 'Oasis Advanced Analytics',
 
-    img: 'static/images/analyticsmodal.jpg',
+    img: '/static/images/analyticsmodal.jpg',
     subtitle: <h4>Oasis delivers business impacting information straight out of your raw data.</h4>,
     caption: <div className="ptype">Countless feeds from your devices, applications, logs and events are consumed by the Oasis ingestion engine, then normalized to generate context. In turn, that information can be converted into actionable intelligence by the Oasis analytics engine.<br/><br/>
               <ul>
@@ -70,7 +70,7 @@ import {
     id: 5,
     altText: 'Oasis Event Manager',
 
-    img: 'static/images/automationmodal.jpg',
+    img: '/static/images/automationmodal.jpg',
     subtitle: <h4>Reduce Noise with The Oasis Event Manager</h4>,
     caption: <p>The Oasis Event Manager (OEM) delivers a mature and modernized approach to Operations Management by
               reducing the noise in your system. Go from thousands of daily events down to a manageable volume for your
@@ -96,7 +96,7 @@ import {
     id: 6,
     altText: 'Trap Adapter SNMP',
 
-    img: 'static/images/trapadaptormodal.jpg',
+    img: '/static/images/trapadaptormodal.jpg',
     subtitle: <h4>The Oasis Trap Adapter SNMP</h4>,
     caption: <div className="ptype">The Oasis Trap Adapter is a fully configurable Trap Listener and Forwarder with native integration to the Oasis Platform. When you leverage the easy-to-use Oasis web application, you can fully configure all features, including the trap exploder and forwarder. Simply, point all of your device traps to the IP address of our trap adaptor and it just works! The Oasis Trap Adapter handles millions of traps per day on a single node.<br/><br/>
                 <h4>At-A-Glance:</h4>
@@ -117,7 +117,7 @@ import {
     id: 7,
     altText: 'The Oasis API',
 
-    img: 'static/images/apisuitemodal.jpg',
+    img: '/static/images/apisuitemodal.jpg',
     subtitle: <h4>The Oasis API is a full feature REST API for CMDB/Assets, Performance, Incidents and Automation.</h4>,
     caption: <div className="ptype">We designed the API to be as simple as possible while also being both powerful and flexible. We use the same API internally when creating integrations with other monitoring and service desk systems.
               <h4>Features:</h4>
@@ -142,7 +142,7 @@ import {
     id: 8,
     altText: 'Cybervision Cybersecurity',
 
-    img: 'static/images/cybervisionmodal.jpg',
+    img: '/static/images/cybervisionmodal.jpg',
     subtitle: <h4>All-in-One Security Solution</h4>,
     caption: <p>Cybervision is our leading all-in-one cybersecurity service, protecting your enterprise from cybersecurity attacks and keeping you in control of your security protocols. Extend your team with some of America's leading defense experts who leverage the renowned Mitre ATT&CK Matrix in tandem with the Oasis platform. If you've tried to attract and retain the talent needed to staff a Security Operations Center then you will appreciate getting a commitment that these skills are watching every move on your network and on your endpoints, 24 x 7 x 365.</p>
   }
@@ -152,7 +152,7 @@ import {
     id: 1,
     altText: 'Architecture',
 
-    img: 'static/images/device.png',
+    img: '/static/images/device.png',
     subtitle: <h4></h4>,
     caption: <p>The Oasis Platform was designed from the ground up with three key concepts in mind: aggregation, automation. and control. Along with the built-in discovery and monitoring capabilities, this enterprise-ready solution aggregates data from any monitoring service or tool for the management of applications and infrastructure. Providing views of the managed environment in a single interface via alerting, dashboards, and charts, Oasis enables instant identification and analysis of the impact on services in real-time; as well as providing historical data for reporting, trending, and capacity planning. See our full product suite for more information.</p>
   }

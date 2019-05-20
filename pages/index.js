@@ -38,7 +38,7 @@ class HomeFive extends React.Component {
                                         <div className="col-lg-8 offset-lg-2 text-white text-center">
                                             <h1 className="home-title">A Platform for Aggregation, Automation and Control</h1>
                                             <p className="padding-t-15 home-desc">Creating synergy for your enterprise with cognitive technology and solutions. Start your digital transformation journey today.</p>
-                                            <img src="static/images/home-dash.png" alt="" className="img-fluid center-block margin-t-20" />
+                                            <img src="/static/images/home-dash.png" alt="" className="img-fluid center-block margin-t-20" />
                                         </div>
                                     </div>
                             </div>

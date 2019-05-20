@@ -1371,7 +1371,10 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
-
+    .mobile-only .sticky-wrapper {
+      position: relative;
+      display: inline-block;
+    }
     .wave-one, .wave-three {
         background-size: 50% 50px;
     }

@@ -52,7 +52,7 @@ class Industries extends React.Component {
                 </div>
                 <div className="col-lg-6">
                   <div className="features-img features-right text-right">
-                    <img src="static/images/healthcare-modal.jpg" alt="Industries" className="img-fluid" />
+                    <img src="/static/images/healthcare-modal.jpg" alt="Industries" className="img-fluid" />
                   </div>
                 </div>
               </div>

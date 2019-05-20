@@ -17,7 +17,7 @@ class Demo extends React.Component {
                 </div>
             </div>
             <div className="bg-pattern-effect">
-                <img src="static/images/bg-pattern.png" alt="" />
+                <img src="/static/images/bg-pattern.png" alt="" />
             </div>
         </section>
   	);

@@ -17,7 +17,7 @@ class Started extends React.Component {
                 </div>
             </div>
             <div className="bg-pattern-effect">
-                <img src="static/images/bg-pattern-light.png" alt="" />
+                <img src="/static/images/bg-pattern-light.png" alt="" />
             </div>
         </section>
   	);

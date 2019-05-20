@@ -17,7 +17,7 @@ class Team extends React.Component {
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="static/images/team/img-1.jpg" className="img-fluid rounded" />
+                                    <img alt="" src="/static/images/team/img-1.jpg" className="img-fluid rounded" />
                                 </div>
                             </div>
                             <h4 className="team-name">Frank Johnson</h4>
@@ -29,7 +29,7 @@ class Team extends React.Component {
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="static/images/team/img-2.jpg" className="img-fluid rounded" />
+                                    <img alt="" src="/static/images/team/img-2.jpg" className="img-fluid rounded" />
                                 </div>
                             </div>
                             <h4 className="team-name">Elaine Stclair</h4>
@@ -41,7 +41,7 @@ class Team extends React.Component {
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="static/images/team/img-3.jpg" className="img-fluid rounded" />
+                                    <img alt="" src="/static/images/team/img-3.jpg" className="img-fluid rounded" />
                                 </div>
                             </div>
                             <h4 className="team-name">Wanda Arthur</h4>
@@ -53,7 +53,7 @@ class Team extends React.Component {
                         <div className="team-box text-center hover-effect">
                             <div className="team-wrapper">
                                 <div className="team-member">
-                                    <img alt="" src="static/images/team/img-4.jpg" className="img-fluid rounded" />
+                                    <img alt="" src="/static/images/team/img-4.jpg" className="img-fluid rounded" />
                                 </div>
                             </div>
                             <h4 className="team-name">Joshua Stemple</h4>

@@ -92,7 +92,7 @@ class Solutions extends React.Component {
                 </div>
                 <div className="col-lg-7">
                     <div className="features-img features-right text-right">
-                        <img src="static/images/home-dash.jpg" alt="Oasis Features" className="img-fluid" />
+                        <img src="/static/images/home-dash.jpg" alt="Oasis Features" className="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@ class Solutions extends React.Component {
             <div className="row vertical-content">
             <div className="col-sm">
                     <div className="features-img features-right text-right">
-                        <img src="static/images/home-dash.jpg" alt="Oasis Features" className="img-fluid" />
+                        <img src="/static/images/home-dash.jpg" alt="Oasis Features" className="img-fluid" />
                     </div>
                 </div>
                 <div className="col-lg-5">

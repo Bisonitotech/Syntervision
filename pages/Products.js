@@ -12,6 +12,7 @@ import Includes from '../components/Includes';
 
 export default ({ url: { query: { index } } }) => (
   <Aux>
+    <div className="mobile-only">
     <Includes />
     <Navbar />
     <div className="mobile-products">
@@ -26,5 +27,6 @@ export default ({ url: { query: { index } } }) => (
     <Footer />
 
     <FooterLinks />
+    </div>
   </Aux>
 )

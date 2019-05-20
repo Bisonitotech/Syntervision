@@ -16,7 +16,7 @@ class Blog extends React.Component {
                 <div className="row margin-t-30">
                     <div className="col-lg-4">
                         <div className="blog-box margin-t-30 hover-effect">
-                            <img src="static/images/blog/img-1.jpg" className="img-fluid" alt="" />
+                            <img src="/static/images/blog/img-1.jpg" className="img-fluid" alt="" />
                             <div>
                                 <h5 className="mt-4 text-muted">Automation</h5>
                                 <h4 className="mt-3">
@@ -33,7 +33,7 @@ class Blog extends React.Component {
 
                     <div className="col-lg-4">
                         <div className="blog-box margin-t-30 hover-effect">
-                            <img src="static/images/blog/img-2.jpg" className="img-fluid" alt="" />
+                            <img src="/static/images/blog/img-2.jpg" className="img-fluid" alt="" />
                             <div>
                                 <h5 className="mt-4 text-muted">Security</h5>
                                 <h4 className="mt-3"><Link href="JavaScript:Void(0);"><a className="blog-title">Why an Agile Security Solution is Crucial for Enterprises</a></Link></h4>
@@ -47,7 +47,7 @@ class Blog extends React.Component {
 
                     <div className="col-lg-4">
                         <div className="blog-box margin-t-30 hover-effect">
-                            <img src="static/images/blog/img-3.jpg" className="img-fluid" alt="" />
+                            <img src="/static/images/blog/img-3.jpg" className="img-fluid" alt="" />
                             <div>
                                 <h5 className="mt-4 text-muted">Integration</h5>
                                 <h4 className="mt-3"><Link href="JavaScript:Void(0);"><a className="blog-title">The 80/20 Rule to Integration</a></Link></h4>

@@ -34,14 +34,14 @@ class Integrations extends React.Component {
                 </div>
                 <div className="col-lg-6">
                   <div className="integrations-flex">
-                    <img src="static/images/NewRelic-logo-bug.png" alt="Integrations" className="img-fluid" />
-                    <img src="static/images/appd-logo-340x0_q100.png" alt="Integrations" className="img-fluid" />
-                    <img src="static/images/sn-logo-transparent.png" alt="Integrations" className="img-fluid" />
+                    <img src="/static/images/NewRelic-logo-bug.png" alt="Integrations" className="img-fluid" />
+                    <img src="/static/images/appd-logo-340x0_q100.png" alt="Integrations" className="img-fluid" />
+                    <img src="/static/images/sn-logo-transparent.png" alt="Integrations" className="img-fluid" />
                   </div>
                   <div className="integrations-flex">
-                    <img src="static/images/google-cloud.png" alt="Integrations" className="img-fluid" />
-                    <img src="static/images/amazon-aws-logo-transparent.png" alt="Integrations" className="img-fluid" />
-                    <img src="static/images/microsoft-azure-logo.png" alt="Integrations" className="img-fluid" />
+                    <img src="/static/images/google-cloud.png" alt="Integrations" className="img-fluid" />
+                    <img src="/static/images/amazon-aws-logo-transparent.png" alt="Integrations" className="img-fluid" />
+                    <img src="/static/images/microsoft-azure-logo.png" alt="Integrations" className="img-fluid" />
                   </div>
                 </div>
               </div>
