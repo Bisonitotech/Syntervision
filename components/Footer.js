@@ -19,47 +19,49 @@ class Footer extends React.Component {
   render() {
   	return (
          <footer className="footer">
-            <CookieBanner
-               message="This site and third-party tools used by this site, make use of cookies to improve your website experience. To learn more or opt out, see the cookie policy. By accepting, you consent to the use of cookies."
-               onAccept = {() => {}}
-               onAcceptPreferences = {() => {}}
-               onAcceptStatistics = {() => {}}
-               onAcceptMarketing = {() => {}}
-               styles = {{
-                dialog: {
-                  backgroundColor: 'rgba(0,0,0,0.3)',
-                  width: '100vw',
-                  height: '100vh',
-                  position: 'fixed',
-                  top: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  left: '0',
-                  zIndex: '1000000',
-                },
-                container: {
-                  position: 'absolute',
-                  width: '60%',
-                  minWidth: '300px',
-                  margin: '0 auto',
-                  background: 'white',
-                  padding: '20px',
-                },
-                policy: {
-                  cursor: 'pointer',
-                  textDecoration: 'underline!important',
-                  fontSize: '10px'
-                }
-              }}
-             />
+            <div className="cookie-banner">
+              <CookieBanner
+                 message="This site and third-party tools used by this site, make use of cookies to improve your website experience. To learn more or opt out, see the cookie policy. By accepting, you consent to the use of cookies."
+                 onAccept = {() => {}}
+                 onAcceptPreferences = {() => {}}
+                 onAcceptStatistics = {() => {}}
+                 onAcceptMarketing = {() => {}}
+                 styles = {{
+                  dialog: {
+                    backgroundColor: 'rgba(0,0,0,0.3)',
+                    width: '100vw',
+                    height: '100vh',
+                    position: 'fixed',
+                    top: '0',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    left: '0',
+                    zIndex: '1000000',
+                  },
+                  container: {
+                    position: 'absolute',
+                    width: '60%',
+                    minWidth: '300px',
+                    margin: '0 auto',
+                    background: 'white',
+                    padding: '20px',
+                  },
+                  policy: {
+                    cursor: 'pointer',
+                    textDecoration: 'underline!important',
+                    fontSize: '10px'
+                  }
+                }}
+               />
+            </div>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 margin-t-20">
                         <h4>Syntervision</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><a href="/demorequest">Contact</a></li>
+                                <li><a href="/DemoRequest">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -67,10 +69,10 @@ class Footer extends React.Component {
                         <h4>Solutions</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><a href="/platform">Oasis Platform</a></li>
-                                <li><a href="/security">Security</a></li>
-                                <li><a href="/industries">By Industry</a></li>
-                                <li><a href="/integrations">Integrations</a></li>
+                                <li><a href="/Platform">Oasis Platform</a></li>
+                                <li><a href="/Security">Security</a></li>
+                                <li><a href="/Industries">By Industry</a></li>
+                                <li><a href="/Integrations">Integrations</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,8 +80,8 @@ class Footer extends React.Component {
                         <h4>Support</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><a href="/privacypolicy">Privacy Policy</a></li>
-                                <li><a href="/terms">Terms & Conditions</a></li>
+                                <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+                                <li><a href="/Terms">Terms & Conditions</a></li>
                             </ul>
                         </div>
                     </div>

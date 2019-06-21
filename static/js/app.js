@@ -4,6 +4,14 @@
    Created: July 2018
    File Description: Main JS file of the template
 */
+(function() {
+    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    link.type = 'image/x-icon';
+    link.rel = 'shortcut icon';
+    link.href = '/static/images/favicon.ico';
+    document.getElementsByTagName('head')[0].appendChild(link);
+})();
+
 (function ($) {
 
     'use strict';

@@ -147,23 +147,22 @@ import {
     caption: <p>Cybervision is our leading all-in-one cybersecurity service, protecting your enterprise from cybersecurity attacks and keeping you in control of your security protocols. Extend your team with some of America's leading defense experts who leverage the renowned Mitre ATT&CK Matrix in tandem with the Oasis platform. If you've tried to attract and retain the talent needed to staff a Security Operations Center then you will appreciate getting a commitment that these skills are watching every move on your network and on your endpoints, 24 x 7 x 365.</p>
   }
 ];
- const platformItems = [
-  {
-    id: 1,
-    altText: 'Architecture',
-
-    img: '/static/images/device.png',
-    subtitle: <h4></h4>,
-    caption: <p>The Oasis Platform was designed from the ground up with three key concepts in mind: aggregation, automation. and control. Along with the built-in discovery and monitoring capabilities, this enterprise-ready solution aggregates data from any monitoring service or tool for the management of applications and infrastructure. Providing views of the managed environment in a single interface via alerting, dashboards, and charts, Oasis enables instant identification and analysis of the impact on services in real-time; as well as providing historical data for reporting, trending, and capacity planning. See our full product suite for more information.</p>
-  }
-];
 
 class Product extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       activeIndex: props.currentIndex?props.currentIndex:0,
-      items: props.contentName==='product'?productItems:platformItems
+      items: props.contentName==='product'?productItems:[
+       {
+         id: 1,
+         altText: 'Architecture',
+
+         img: '/static/images/device.png',
+         subtitle: <h4></h4>,
+         caption: <p>The Oasis Platform was designed from the ground up with three key concepts in mind: aggregation, automation. and control. Along with the built-in discovery and monitoring capabilities, this enterprise-ready solution aggregates data from any monitoring service or tool for the management of applications and infrastructure. Providing views of the managed environment in a single interface via alerting, dashboards, and charts, Oasis enables instant identification and analysis of the impact on services in real-time; as well as providing historical data for reporting, trending, and capacity planning. <br/><br/>See our full <a onClick={()=>this.setState({items:productItems})}>product suites</a> for more information.</p>
+       }
+     ]
     };
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);

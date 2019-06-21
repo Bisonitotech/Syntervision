@@ -11,7 +11,6 @@ class Includes extends React.Component {
   	return (
         <div>
           <meta content="width=device-width, initial-scale=1" name="viewport" />
-          <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico" />
           <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
           <script src='/static/js/jquery.min.js'></script>
           <script src='/static/js/bootstrap.bundle.min.js'></script>

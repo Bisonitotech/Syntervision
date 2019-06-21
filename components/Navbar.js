@@ -15,6 +15,7 @@ class Navbar extends React.Component {
     };
     this.closeModal = this.closeModal.bind(this)
     this.showProducts = this.showProducts.bind(this)
+    this.setModalContent = this.setModalContent.bind(this)
   }
   showProducts(index){
     console.log(window.screen.width)
@@ -29,6 +30,10 @@ class Navbar extends React.Component {
         modalShow: true,
         modalContent: 'product'
       })
+  }
+  setModalContent(content) {
+    this.setState({modalContent: content});
+    console.log(this.state.modalContent)
   }
   showPlatformOverview(index){
     if(window.screen.width<=768){
@@ -51,6 +56,7 @@ class Navbar extends React.Component {
       modalContent: ''
     })
   }
+
   render() {
 
   	return (
@@ -323,7 +329,7 @@ class Navbar extends React.Component {
             </div>
             {this.state.modalShow && <div className="product-modal-wrap">
               <div className="product-modal">
-                <Product contentName={this.state.modalContent} showProducts={this.showProducts} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal}/>
+                <Product setModalContent={this.setModalContent} contentName={this.state.modalContent} showProducts={this.showProducts} type={'desktop'} currentIndex={this.state.index} closeModal={this.closeModal}/>
               </div>
             </div>}
         </nav>
