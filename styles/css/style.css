@@ -1903,7 +1903,7 @@ ul.pattern .color8 {
 }
 .modal-header{
     position: fixed;
-    height: 60px;
+    height: 80px;
     top: 50px;
     background: #ebebeb;
     left: 120px;
@@ -1919,6 +1919,22 @@ ul.pattern .color8 {
     flex-wrap: nowrap;
     /* display: inline-block; */
 }
+.hideheader {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    z-index: 1000000000;
+    height: 20px;
+    background: white;
+}
+.modal-header::-webkit-scrollbar { width: 0 !important }
+.modal-header{ overflow: -moz-scrollbars-none; }
+.modal-header{ -ms-overflow-style: none; }
+.product-modal::-webkit-scrollbar { width: 0 !important }
+.product-modal{ overflow: -moz-scrollbars-none; }
+.product-modal{ -ms-overflow-style: none; }
+
+
 .modal-header li{
     display: inline-block;
     line-height: 56px;

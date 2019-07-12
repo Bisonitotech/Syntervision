@@ -242,6 +242,8 @@ class Product extends React.Component {
             })
           }
         </ul>
+          <div className="hideheader">
+          </div>
         <Carousel
           activeIndex={activeIndex}
           next={this.next}
