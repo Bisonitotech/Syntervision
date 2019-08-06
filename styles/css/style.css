@@ -1239,6 +1239,7 @@
   .copy-rights {
       margin-bottom: 0;
       line-height: 36px;
+      color: #2f3139;
   }
   
   /*=====================================
@@ -1923,7 +1924,7 @@
       z-index: 10000;
       list-style: none;
       flex-wrap: nowrap;
-      /* display: inline-block; */
+      overflow: hidden;
   }
   .modal-header li{
       display: inline-block;

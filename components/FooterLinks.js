@@ -8,7 +8,8 @@ class FooterLinks extends React.Component {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="float-left pull-none ">
-                        <p className="copy-rights text-white">{(new Date().getFullYear())} © Syntervision All rights reserved</p>
+                        <p className="copy-rights text-white">{(new Date().getFullYear())} © Syntervision All rights reserved</p></div>
+                        <div className="float-right pull-none "><span className="copy-rights"> Version 1.1</span>
                     </div>
                     <div className="float-right pull-none ">
 
