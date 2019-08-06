@@ -157,8 +157,8 @@ class Navbar extends React.Component {
                                       <i className="pe-7s-lock text-custom"></i>
                                     </div>
                                     <div>
-                                      <h4 className="title">Cybervision</h4>
-                                      <p>Cybervision is our leading all-in-one cybersecurity service, protecting your enterprise from cybersecurity attacks and keeping you in control of your security protocols.</p>
+                                      <h4 className="title">Syntervision Security</h4>
+                                      <p>Syntervision Security is our leading all-in-one cybersecurity service, protecting your enterprise from cybersecurity attacks and keeping you in control of your security protocols.</p>
                                     </div>
                                   </a>
                                 </div>}
@@ -204,7 +204,7 @@ class Navbar extends React.Component {
                               <div className="content">
                                 <div>
                                   <div className="item">
-                                    <a href="/Security">Security</a>
+                                    <a href="/Security">Syntervision Security</a>
                                   </div>
                                   <div className="item">
                                     <a href="/Industries">By Industry</a>

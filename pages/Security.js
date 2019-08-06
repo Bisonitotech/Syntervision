@@ -21,10 +21,10 @@ class Security extends React.Component {
               <div className="row vertical-content">
                 <div className="col-lg-6">
                   <div className="features-box">
-                    <h3 className="other-p-title">Security</h3>
+                    <h3 className="other-p-title">Syntervision Security</h3>
                     <p className="other-p-content">
-                      The first step to securing your business is visibility. It’s crucial to truly know your network, easily detect any changes and act in time to minimize risks. And when a does breach occur, your analysts need information that describes the what, who, and why of the situation. With a dynamic network of scale in constant flux, it’s difficult to know where your blind spots are. Oasis meets this challenge by modernizing your monitoring, detection, and response efforts with advanced analytics and workflows.<br/><br/>
-                      Looking for an all-in-one solution? Enter Cybervision, our partner offering for a SOC-as-service, delivering greater flexibility to organizations than an MSSP and more capabilities than building it in-house. Leveraging the Oasis Platform, the service will reduce time-consuming false alerts and stand by with world-leading cyber forensic experts in case rapid remediation is required. Cybervision is a fully staffed 24/7 security team who will detect, analyze, and respond to network threats. Learn more about Cybervision here.
+                    The first step to securing your business is visibility. It’s crucial to truly know your network, easily detect any changes and act in time to minimize risks. And when a breach does occur, your analysts need information that describes the what, who, and why of the situation. With a dynamic network of scale in constant flux, it’s difficult to know where your blind spots are. Oasis meets this challenge by modernizing your monitoring, detection, and response efforts with advanced analytics and workflows.<br/><br/>
+                    Looking for an all-in-one solution? Enter Syntervision Security, delivering greater flexibility to organizations than an MSSP and more capabilities than building it in-house. Leveraging the Oasis Platform, the service will reduce time-consuming false alerts and automate remediation actions. Contact us today to learn more about using Syntervision Security as your SIEM and SOAR solution.
                     </p>
 
                   </div>
