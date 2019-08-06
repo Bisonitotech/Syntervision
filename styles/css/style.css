@@ -465,20 +465,26 @@
   
   .btn-custom {
       border: 1px solid;
-      color: #0f1d41;
+      color: #2e3138;
       transition: all 0.3s;
       font-size: 14px;
   }
   
   .btn-custom:hover,
+  .btn-custom:hover,
+  .open
+  {
+    border: 1px solid !important;
+    color: #D80000 !important;
+  }
   .btn-custom:focus,
   .btn-custom:active,
   .btn-custom.active,
   .btn-custom.focus,
   .btn-custom:active,
   .btn-custom:focus,
-  .btn-custom:hover,
-  .open > .dropdown-toggle.btn-custom {
+  .open
+   > .dropdown-toggle.btn-custom {
       border: 1px solid !important;
       color: #f3f3f3 !important;
   }
