@@ -1927,7 +1927,7 @@
       z-index: 10000;
       list-style: none;
       flex-wrap: nowrap;
-      overflow: hidden;
+      overflow: hidden !important;
   }
   .modal-header li{
       display: inline-block;
