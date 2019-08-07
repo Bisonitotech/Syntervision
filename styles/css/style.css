@@ -411,6 +411,9 @@
     margin: 0px auto;
     background: white;
     padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
   .bg-dark {
       background-color: #393f4f !important;
@@ -1924,7 +1927,7 @@
       z-index: 10000;
       list-style: none;
       flex-wrap: nowrap;
-      overflow: hidden;
+      overflow: hidden !important;
   }
   .modal-header li{
       display: inline-block;
