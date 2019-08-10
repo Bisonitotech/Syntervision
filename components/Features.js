@@ -17,7 +17,7 @@ class Features extends React.Component {
                             <li className="">Advanced Alerting</li>
                             <li className="">Performance Analytic Dashboards</li>
                         </ul>
-                        <a href="/platform" className="btn btn-custom margin-t-30 waves-effect waves-light">Learn More <i className="mdi mdi-arrow-right"></i></a>
+                        <a href="/Platform" className="btn btn-custom margin-t-30 waves-effect waves-light">Learn More <i className="mdi mdi-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-7">
