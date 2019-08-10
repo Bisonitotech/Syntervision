@@ -12,7 +12,7 @@ class Demo extends React.Component {
                         <h1 className="get-started-title text-white">Request a Demo</h1>
                         <div className="section-title-border margin-t-20 bg-white"></div>
                         <p className="padding-t-15 home-desc">We offer a trial version that includes all advanced features - free, for 30 days. Contact us today to request a license!</p>
-                        <a href="/demorequest" className="btn btn-bg-white waves-effect margin-t-20 mb-4">Get Started <i className="mdi mdi-arrow-right"></i> </a>
+                        <a href="/DemoRequest" className="btn btn-bg-white waves-effect margin-t-20 mb-4">Get Started <i className="mdi mdi-arrow-right"></i> </a>
                     </div>
                 </div>
             </div>

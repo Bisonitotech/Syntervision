@@ -41,7 +41,7 @@ class Process extends React.Component {
                     </div>
                 </div>
                 <div className="text-center mx-auto">
-                <a href="/platform" className="btn btn-custom waves-light waves-effect margin-t-50 nav-link">Learn More <i className="mdi mdi-arrow-right"></i></a>
+                <a href={"/Platform"} className="btn btn-custom waves-light waves-effect margin-t-50 nav-link">Learn More <i className="mdi mdi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
