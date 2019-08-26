@@ -9,11 +9,18 @@ import FooterLinks from '../components/FooterLinks';
 import Link from 'next/link';
 import Aux from './hoc/Aux_';
 import Includes from '../components/Includes';
+import NextSeo from 'next-seo';
 
 class Terms extends React.Component {
   render() {
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Terms and Conditions',
+        description: 'Thank you for choosing to be part of our community at Syntervision, Inc.',
+      }}
+    />
           <Includes />
           <Navbar />
           <section className="privacy">

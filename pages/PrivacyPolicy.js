@@ -8,6 +8,8 @@ import FooterLinks from '../components/FooterLinks';
 import Aux from './hoc/Aux_';
 import Includes from '../components/Includes';
 
+import NextSeo from 'next-seo';
+
 class PrivacyPolicy extends React.Component {
   render() {
 
@@ -19,6 +21,12 @@ class PrivacyPolicy extends React.Component {
 
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Privacy Policy',
+        description: 'Thank you for choosing to be part of our community at Syntervision, Inc.',
+      }}
+    />
           <Includes />
                 <Navbar />
 

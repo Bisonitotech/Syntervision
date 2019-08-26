@@ -9,11 +9,18 @@ import FooterLinks from '../components/FooterLinks';
 import Link from 'next/link';
 import Aux from './hoc/Aux_';
 import Includes from '../components/Includes';
+import NextSeo from 'next-seo';
 
 class Industries extends React.Component {
   render() {
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Industries',
+        description: 'Syntervision provides integrated IT solutions with the Oasis platform. See how Oasis works for your industry,',
+      }}
+    />
           <Includes />
           <Navbar />
           <section className="section bg-light">
