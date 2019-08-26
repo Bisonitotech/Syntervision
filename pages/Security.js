@@ -10,10 +10,18 @@ import Link from 'next/link';
 import Aux from './hoc/Aux_';
 import Includes from '../components/Includes';
 
+import NextSeo from 'next-seo';
+
 class Security extends React.Component {
   render() {
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Syntervision Security',
+        description: 'End-to-end security and automation platform for enterprise',
+      }}
+    />
           <Includes />
           <Navbar />
           <section className="section bg-light">

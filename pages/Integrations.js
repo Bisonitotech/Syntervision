@@ -10,11 +10,19 @@ import Link from 'next/link';
 import Aux from './hoc/Aux_';
 import Includes from '../components/Includes';
 
+import NextSeo from 'next-seo';
+
 class Integrations extends React.Component {
 
   render() {
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Integrations',
+        description: 'Integrates with most of the prominent third party applications including Amazon Web Services, Google Cloud, Service now and more.',
+      }}
+    />
           <Includes />
           <Navbar />
           <section className="section bg-light">

@@ -14,7 +14,7 @@ import FooterLinks from '../components/FooterLinks';
 import Includes from '../components/Includes';
 import Aux from './hoc/Aux_';
 import Link from 'next/link';
-
+import NextSeo from 'next-seo';
 class HomeFive extends React.Component {
   render() {
 
@@ -24,8 +24,15 @@ class HomeFive extends React.Component {
         backgroundPosition : 'center',
       };
 
+
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Syntervision',
+        description: 'End-to-end data management solution built to enable big data aggregation, automation, security for enterprise',
+      }}
+    />
         <Includes/>
                 <Navbar />
 

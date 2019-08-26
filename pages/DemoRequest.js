@@ -7,6 +7,7 @@ import FooterLinks from '../components/FooterLinks';
 import Aux from './hoc/Aux_';
 import Link from 'next/link';
 import Includes from '../components/Includes';
+import NextSeo from 'next-seo';
 
 class DemoRequest extends React.Component {
   render() {
@@ -19,6 +20,12 @@ class DemoRequest extends React.Component {
 
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Request a Demo',
+        description: 'Request a free demo version of the Oasis Platform today.',
+      }}
+    />
         <Includes/>
                 <Navbar />
 

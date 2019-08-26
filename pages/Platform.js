@@ -13,6 +13,8 @@ import Link from 'next/link';
 import Includes from '../components/Includes';
 import OasisArchitecture from '../components/OasisArchitecture';
 
+import NextSeo from 'next-seo';
+
 class Platform extends React.Component {
   render() {
 
@@ -24,6 +26,12 @@ class Platform extends React.Component {
 
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'About Oasis',
+        description: 'Delivering exceptional monitoring and automation services for your enterprise through cognitive computing.',
+      }}
+    />
           <Includes />
                 <Navbar />
 

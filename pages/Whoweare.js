@@ -9,6 +9,7 @@ import FooterLinks from '../components/FooterLinks';
 import Aux from './hoc/Aux_';
 import Link from 'next/link';
 import Includes from '../components/Includes';
+import NextSeo from 'next-seo';
 
 class Whoweare extends React.Component {
   render() {
@@ -21,6 +22,12 @@ class Whoweare extends React.Component {
 
   	return (
         <Aux>
+        <NextSeo
+      config={{
+        title: 'Who We Are',
+        description: 'Syntervision supports small businesses to provide engineering services and specifically, implementing management solutions for large enterprises.',
+      }}
+    />
           <Includes />
                 <Navbar />
 
